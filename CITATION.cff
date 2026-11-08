@@ -1,0 +1,44 @@
+# Citation File Format 1.2.0
+# https://citation-file-format.github.io
+#
+# The single author entry is an institutional (entity) author. In CFF an author
+# is an entity, rather than a person, when it carries "name" instead of
+# "given-names" / "family-names". CFF 1.2.0 defines no "type" key on an author,
+# so the institution is expressed in that entity form.
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+type: dataset
+title: "Turkish Citizenship by Investment: Open Data"
+abstract: >-
+  Machine-readable reference data on Turkiye's citizenship-by-investment
+  programme: qualifying investment thresholds and their statutory basis, the
+  conditions attached to each route, government and third-party transaction
+  costs, the documents an application requires, published statistics on
+  citizenship acquisitions and foreign property purchases, and an index of the
+  primary sources behind each figure. Figures are dated and attributed to the
+  instrument or publication they come from.
+authors:
+  - name: "Ra Legal"
+    city: "Istanbul"
+    country: TR
+    website: "https://ralegal.com.tr"
+    email: "info@ralegal.com.tr"
+version: 1.0.0
+date-released: "2026-11-08"
+license: CC-BY-4.0
+repository-code: "https://github.com/Ralegal/turkish-cbi-data"
+url: "https://ralegal.com.tr/turkish-citizenship-by-investment"
+keywords:
+  - Turkiye
+  - Turkish citizenship
+  - citizenship by investment
+  - investment migration
+  - residence permit
+  - real estate
+  - open data
+  - Law No. 5901
+contact:
+  - name: "Ra Legal"
+    city: "Istanbul"
+    country: TR
+    email: "info@ralegal.com.tr"
