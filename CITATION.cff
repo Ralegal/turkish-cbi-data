@@ -23,11 +23,11 @@ authors:
     country: TR
     website: "https://ralegal.com.tr"
     email: "info@ralegal.com.tr"
-version: 1.0.0
-date-released: "2026-11-08"
+version: 1.1.0
+date-released: "2026-11-11"
 license: CC-BY-4.0
 repository-code: "https://github.com/Ralegal/turkish-cbi-data"
-url: "https://ralegal.com.tr/turkish-citizenship-by-investment"
+url: "https://ralegal.com.tr/data/turkish-cbi-open-data"
 keywords:
   - Turkiye
   - Turkish citizenship

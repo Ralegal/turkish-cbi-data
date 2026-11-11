@@ -37,7 +37,7 @@ implementing Regulation (BKK 2010/139):
 | Route | Minimum | Holding period | Basis of the figure |
 |---|---|---|---|
 | Real estate | USD 400,000 | 3 years | Official SPK-licensed appraisal value, not the contract price |
-| Bank deposit | USD 500,000 | 3 years | Deposit in a Turkish bank, FX or TL equivalent |
+| Bank deposit | USD 500,000 | 3 years | Turkish lira deposit in a bank operating in Türkiye, after the foreign currency is sold to the bank and by the bank to the Central Bank (Regulation Art. 20(10), since 6 January 2022) |
 | Government bonds | USD 500,000 | 3 years | Certified by the Ministry of Treasury and Finance |
 | Investment fund shares | USD 500,000 | 3 years | Real-estate or venture capital fund shares (GYF/GSYF) |
 | Fixed capital investment | USD 500,000 | not applicable | Certified by the Ministry of Industry and Technology |
@@ -63,8 +63,15 @@ machine-readable version.
 |---|---|---|---|
 | 2017-01-12 | Real estate | USD 1,000,000 | BKK 2016/9601, Resmî Gazete 12 January 2017 No. 29946 |
 | 2017-01-12 | Bank deposit | USD 3,000,000 | BKK 2016/9601, Resmî Gazete 12 January 2017 No. 29946 |
+| 2017-01-12 | Government bonds | USD 3,000,000 | BKK 2016/9601, Resmî Gazete 12 January 2017 No. 29946 |
+| 2017-01-12 | Fixed capital investment | USD 2,000,000 | BKK 2016/9601, Resmî Gazete 12 January 2017 No. 29946 |
+| 2017-01-12 | Job creation | 100 employees | BKK 2016/9601, Resmî Gazete 12 January 2017 No. 29946 |
 | 2018-09-19 | Real estate | USD 250,000 | Presidential Decree 106, Resmî Gazete 19 September 2018 No. 30540 |
 | 2018-09-19 | Bank deposit | USD 500,000 | Presidential Decree 106, Resmî Gazete 19 September 2018 No. 30540 |
+| 2018-09-19 | Government bonds | USD 500,000 | Presidential Decree 106, Resmî Gazete 19 September 2018 No. 30540 |
+| 2018-09-19 | Investment fund shares | USD 500,000 | Presidential Decree 106, Resmî Gazete 19 September 2018 No. 30540 |
+| 2018-09-19 | Fixed capital investment | USD 500,000 | Presidential Decree 106, Resmî Gazete 19 September 2018 No. 30540 |
+| 2018-09-19 | Job creation | 50 employees | Presidential Decree 106, Resmî Gazete 19 September 2018 No. 30540 |
 | 2022-06-13 | Real estate | USD 400,000 | Presidential Decision 5554, Resmî Gazete 13 May 2022 No. 31834, in force 13 June 2022 |
 
 ## What does it cost beyond the investment?
@@ -86,6 +93,9 @@ excluded.
 | [`data/document-checklist.json`](data/document-checklist.json) | Required documents by family member, plus apostille status by country |
 | [`data/statistics.json`](data/statistics.json) | Statistics tracker: 325 long-format observations across 36 series (citizenship acquisitions, investment-route totals, foreign property purchases by nationality and province, threshold and rule changes, 2026 enforcement action). Every record names a source and an as-of date; `value` is `null` and `published` is `false` where the figure is not published. |
 | [`data/sources.json`](data/sources.json) | Index of every primary source behind the datasets: statute and regulation names, articles used, Resmî Gazete date and issue number where known, publisher, URL where known, and a verification status per citation |
+| [`data/apostille-countries.json`](data/apostille-countries.json) | Hague Apostille Convention status: all 130 Contracting Parties with the date the Convention entered into force for each, by ISO 3166-1 alpha-2 code, plus the non-parties our guides name. Decides whether a civil status document takes an apostille or needs consular legalisation |
+| [`data/processing-times.json`](data/processing-times.json) | Observed durations per stage of a file, and the end-to-end range. Marked `"basis": "observed"`, because no Turkish authority publishes an end-to-end processing time and no statute sets a deadline |
+| [`data/investment-returns.json`](data/investment-returns.json) | Year-end index levels and rates (BIST 100, BIST REIT, gold in lira, lira and dollar deposit returns, housing) with USD/TRY, for expressing each route's outcome in dollars. Gross of taxes and fees, and not investment advice |
 
 ## Headline statistics
 
@@ -128,8 +138,8 @@ change: check the `asOf` field in each file, and the Resmî Gazete for amendment
 GitHub renders a **Cite this repository** button from
 [`CITATION.cff`](CITATION.cff). In text:
 
-> Ra Legal (2026). *Turkish Citizenship by Investment: Open Data*, version 1.0.0.
-> https://github.com/Ralegal/turkish-cbi-data
+> Ra Legal (2026). *Turkish Citizenship by Investment: Open Data*, version 1.1.0.
+> https://ralegal.com.tr/data/turkish-cbi-open-data
 
 BibTeX:
 
@@ -138,11 +148,11 @@ BibTeX:
   title     = {Turkish Citizenship by Investment: Open Data},
   author    = {{Ra Legal}},
   year      = {2026},
-  version   = {1.0.0},
+  version   = {1.1.0},
   publisher = {Ra Legal},
   address   = {Istanbul, T\"urkiye},
   license   = {CC-BY-4.0},
-  url       = {https://github.com/Ralegal/turkish-cbi-data}
+  url       = {https://ralegal.com.tr/data/turkish-cbi-open-data}
 }
 ```
 

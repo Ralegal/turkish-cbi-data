@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "name": "Turkish citizenship by investment: primary source index",
   "description": "Machine-readable index of the primary legal instruments, official statistical publications and official statements behind the datasets in this repository. Every figure published here is traceable to an entry in this file.",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-11",
   "license": "CC BY 4.0",
   "repository": "https://github.com/Ralegal/turkish-cbi-data",
   "maintainer": {
@@ -32,7 +32,10 @@
       "titleEn": "Turkish Citizenship Law",
       "number": "5901",
       "adopted": "2009-05-29",
-      "resmiGazete": { "date": "2009-06-12", "issue": "27256" },
+      "resmiGazete": {
+        "date": "2009-06-12",
+        "issue": "27256"
+      },
       "publisher": "Turkiye Buyuk Millet Meclisi",
       "articlesUsed": [
         {
@@ -69,7 +72,10 @@
       "number": "2010/139",
       "instrument": "Bakanlar Kurulu Karari",
       "decided": "2010-02-11",
-      "resmiGazete": { "date": "2010-04-06", "issue": "27544" },
+      "resmiGazete": {
+        "date": "2010-04-06",
+        "issue": "27544"
+      },
       "publisher": "Bakanlar Kurulu",
       "statutoryBasis": "law-5901 art. 46",
       "articlesUsed": [
@@ -91,7 +97,10 @@
       "number": "2016/9601",
       "instrument": "Bakanlar Kurulu Karari",
       "amends": "regulation-2010-139",
-      "resmiGazete": { "date": "2017-01-12", "issue": "29946" },
+      "resmiGazete": {
+        "date": "2017-01-12",
+        "issue": "29946"
+      },
       "publisher": "Bakanlar Kurulu",
       "effect": "Introduced the investor route. Real estate threshold USD 1,000,000; bank deposit threshold USD 3,000,000.",
       "url": null,
@@ -105,7 +114,10 @@
       "number": "2017/10008",
       "instrument": "Bakanlar Kurulu Karari",
       "amends": "regulation-2010-139",
-      "resmiGazete": { "date": "2017-05-05", "issue": "30057" },
+      "resmiGazete": {
+        "date": "2017-05-05",
+        "issue": "30057"
+      },
       "publisher": "Bakanlar Kurulu",
       "effect": "Amended the investor route criteria.",
       "url": null,
@@ -120,7 +132,10 @@
       "number": "106",
       "instrument": "Cumhurbaskanligi Kararnamesi",
       "amends": "regulation-2010-139",
-      "resmiGazete": { "date": "2018-09-19", "issue": "30540" },
+      "resmiGazete": {
+        "date": "2018-09-19",
+        "issue": "30540"
+      },
       "publisher": "Cumhurbaskanligi",
       "effect": "Cut the thresholds: real estate to USD 250,000, bank deposit, government bonds and investment fund shares to USD 500,000, fixed capital investment to USD 500,000, job creation to 50 employees.",
       "url": null,
@@ -135,7 +150,10 @@
       "number": "5554",
       "instrument": "Cumhurbaskani Karari",
       "amends": "regulation-2010-139",
-      "resmiGazete": { "date": "2022-05-13", "issue": "31834" },
+      "resmiGazete": {
+        "date": "2022-05-13",
+        "issue": "31834"
+      },
       "inForceFrom": "2022-06-13",
       "publisher": "Cumhurbaskanligi",
       "effect": "Raised the real estate threshold from USD 250,000 to USD 400,000, in force one month after publication.",
@@ -151,7 +169,10 @@
       "titleEn": "Fees Law",
       "number": "492",
       "adopted": "1964-07-02",
-      "resmiGazete": { "date": "1964-07-17", "issue": "11756" },
+      "resmiGazete": {
+        "date": "1964-07-17",
+        "issue": "11756"
+      },
       "publisher": "Turkiye Buyuk Millet Meclisi",
       "articlesUsed": [
         {
@@ -176,7 +197,10 @@
       "titleEn": "Value Added Tax Law",
       "number": "3065",
       "adopted": "1984-10-25",
-      "resmiGazete": { "date": "1984-11-02", "issue": "18563" },
+      "resmiGazete": {
+        "date": "1984-11-02",
+        "issue": "18563"
+      },
       "publisher": "Turkiye Buyuk Millet Meclisi",
       "articlesUsed": [
         {
@@ -188,7 +212,10 @@
         {
           "id": "law-6824",
           "titleEn": "Law No. 6824, art. 7, which added subparagraph (i) to art. 13",
-          "resmiGazete": { "date": "2017-03-08", "issue": "30001" },
+          "resmiGazete": {
+            "date": "2017-03-08",
+            "issue": "30001"
+          },
           "appliesFrom": "2017-04-01"
         }
       ],
@@ -201,7 +228,10 @@
       "kind": "administrative_guidance",
       "titleTr": "Katma Deger Vergisi Genel Uygulama Tebliginde Degisiklik Yapilmasina Dair Teblig",
       "titleEn": "Amendment to the VAT General Application Communique, adding section II/B-12 on the exemption for residence and workplace deliveries",
-      "resmiGazete": { "date": "2017-05-05", "issue": null },
+      "resmiGazete": {
+        "date": "2017-05-05",
+        "issue": null
+      },
       "publisher": "Hazine ve Maliye Bakanligi, Gelir Idaresi Baskanligi",
       "subject": "Conditions for applying the art. 13(i) VAT exemption, including the requirement that the title deed registration be completed and that the foreign currency be brought in.",
       "url": "https://www.resmigazete.gov.tr/eskiler/2017/05/20170505-11.htm",
@@ -251,7 +281,10 @@
       "titleEn": "Capital Markets Law",
       "number": "6362",
       "adopted": "2012-12-06",
-      "resmiGazete": { "date": "2012-12-30", "issue": "28513" },
+      "resmiGazete": {
+        "date": "2012-12-30",
+        "issue": "28513"
+      },
       "publisher": "Turkiye Buyuk Millet Meclisi",
       "subject": "Basis on which the Capital Markets Board (SPK) authorises real estate appraisal companies. The list of authorised companies is maintained by the Board.",
       "url": "https://www.mevzuat.gov.tr/mevzuatmetin/1.5.6362.pdf",
@@ -267,7 +300,10 @@
       "titleEn": "Law on Foreigners and International Protection",
       "number": "6458",
       "adopted": "2013-04-04",
-      "resmiGazete": { "date": "2013-04-11", "issue": "28615" },
+      "resmiGazete": {
+        "date": "2013-04-11",
+        "issue": "28615"
+      },
       "publisher": "Turkiye Buyuk Millet Meclisi",
       "subject": "Residence permits, including the short-term residence permit issued to owners of immovable property and the health insurance condition. Relevant to the residence permit stage in data/document-checklist.json.",
       "url": "https://www.mevzuat.gov.tr/mevzuatmetin/1.5.6458.pdf",
@@ -282,7 +318,10 @@
       "titleEn": "Disaster Insurance Law",
       "number": "6305",
       "adopted": "2012-05-09",
-      "resmiGazete": { "date": "2012-08-18", "issue": "28388" },
+      "resmiGazete": {
+        "date": "2012-08-18",
+        "issue": "28388"
+      },
       "publisher": "Turkiye Buyuk Millet Meclisi",
       "subject": "Compulsory earthquake insurance (DASK), a condition of utility registration and of title deed transactions. Appears as a cost line in data/government-costs.csv.",
       "url": "https://www.mevzuat.gov.tr/mevzuatmetin/1.5.6305.pdf",
@@ -427,6 +466,53 @@
       "url": "https://www.mevzuat.gov.tr",
       "verification": "official_text_located",
       "lastChecked": "2026-11-08"
+    },
+    {
+      "id": "cbk-5072",
+      "kind": "amending_instrument",
+      "titleEn": "Amendment requiring qualifying deposits and instruments to be converted into Turkish lira",
+      "number": "5072",
+      "instrument": "Cumhurbaskanligi Karari",
+      "amends": "regulation-2010-139",
+      "resmiGazete": {
+        "date": "2022-01-06",
+        "issue": "31711"
+      },
+      "publisher": "Cumhurbaskanligi",
+      "articlesUsed": [
+        {
+          "article": "20(10)",
+          "subject": "The foreign currency is sold to the bank and by the bank to the Central Bank, and the qualifying amount is held in Turkish lira"
+        }
+      ],
+      "effect": "Added Art. 20(10) to the implementing Regulation, so a qualifying bank deposit is a Turkish lira deposit rather than a foreign currency one.",
+      "url": null,
+      "verification": "official_reference_located",
+      "lastChecked": "2026-11-11",
+      "note": "Which sub-paragraphs of Art. 20(2) this rule reaches, beyond the bank deposit, is an open question below."
+    },
+    {
+      "id": "law-7394",
+      "kind": "statute",
+      "titleEn": "Law amending the Law on the Taxation of Certain Assets and certain other laws",
+      "number": "7394",
+      "resmiGazete": {
+        "date": "2022-04-15",
+        "issue": "31810"
+      },
+      "inForce": "2022-05-01",
+      "publisher": "Turkiye Buyuk Millet Meclisi",
+      "amends": "law-3065",
+      "articlesUsed": [
+        {
+          "article": "13(1)(i)",
+          "subject": "The no-disposal period attached to the foreign-buyer VAT exemption, extended from one year to three years"
+        }
+      ],
+      "effect": "Replaced \"one year\" with \"three years\" in VAT Law No. 3065 Art. 13(1)(i). Disposing of the unit inside the period brings the exempted VAT back with interest.",
+      "url": null,
+      "verification": "official_reference_located",
+      "lastChecked": "2026-11-11"
     }
   ],
   "datasetSourceMap": {
@@ -436,7 +522,8 @@
       "bkk-2016-9601",
       "bkk-2017-10008",
       "cbk-106",
-      "cbk-5554"
+      "cbk-5554",
+      "cbk-5072"
     ],
     "data/government-costs.csv": [
       "law-492",
@@ -445,7 +532,9 @@
       "law-6305",
       "law-6362",
       "tkgm-genelge-2019-1",
-      "tkgm-genelge-2024-4"
+      "tkgm-genelge-2024-4",
+      "cbk-5072",
+      "law-7394"
     ],
     "data/document-checklist.json": [
       "law-5901",
@@ -470,13 +559,23 @@
       "bkk-2017-10008",
       "cbk-106",
       "cbk-5554"
-    ]
+    ],
+    "data/apostille-countries.json": [
+      "hcch-1961"
+    ],
+    "data/processing-times.json": [
+      "ankara-valiligi-service-standards"
+    ],
+    "data/investment-returns.json": []
   },
   "openQuestions": [
     "Decision numbers (esas and karar) for the Danistay rulings in the litigation series are not yet recorded.",
     "The Tapu ve Kadastro Genel Mudurlugu circulars are not published in the Official Gazette, so 2019/1, 2021/6 and 2024/4 and its 2026-09-28 amendment rest on secondary reporting and need confirmation against the circular texts.",
     "The legal instrument behind the USD 200,000 property threshold for residence permits announced on 2023-10-16 has not been identified.",
     "The Official Gazette issue number for the VAT General Application Communique amendment of 2017-05-05 is not yet recorded.",
-    "Sources disagree on the validity period of the appraisal report underlying the Tutar Tespit Belgesi. The 2026-09-28 amendment to circular 2024/4 is reported to set the window between the Tutar Tespit Belgesi and the citizenship application at 12 months, which may be the origin of the disagreement, but the circular text has not been read."
+    "Sources disagree on the validity period of the appraisal report underlying the Tutar Tespit Belgesi. The 2026-09-28 amendment to circular 2024/4 is reported to set the window between the Tutar Tespit Belgesi and the citizenship application at 12 months, which may be the origin of the disagreement, but the circular text has not been read.",
+    "Which sub-paragraphs of Regulation Art. 20(2) the Art. 20(10) lira-conversion requirement reaches. Ra Legal's deposit guide states (b), (c-cedilla), (d) and (e); only the bank deposit is recorded as settled in investment-thresholds.json. Counsel to confirm.",
+    "The series in data/investment-returns.json have no entries in this register. Borsa Istanbul index levels, TCMB deposit rates and the TCMB residential property price index each need a dated entry with a URL and a retrieval date before a figure from that file can be cited the way a legal figure can.",
+    "The lira gram gold price series in data/investment-returns.json has no identified publication at all."
   ]
 }
