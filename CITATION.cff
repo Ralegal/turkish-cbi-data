@@ -1,10 +1,17 @@
 # Citation File Format 1.2.0
 # https://citation-file-format.github.io
 #
-# The single author entry is an institutional (entity) author. In CFF an author
-# is an entity, rather than a person, when it carries "name" instead of
-# "given-names" / "family-names". CFF 1.2.0 defines no "type" key on an author,
-# so the institution is expressed in that entity form.
+# Two authors: the attorney who maintains the dataset, and the firm.
+#
+# It was institutional-only at first, which meant GitHub's "Cite this
+# repository" button and every formal citation named a company and no person.
+# For a dataset whose whole claim is that a qualified lawyer stands behind the
+# figures, that is the wrong omission: the README already names her, so the
+# citation should too.
+#
+# In CFF an author is a person when it carries "given-names" and
+# "family-names", and an entity when it carries "name". There is no "type"
+# key in CFF 1.2.0, so the distinction is made by which keys are present.
 cff-version: 1.2.0
 message: "If you use this dataset, please cite it as below."
 type: dataset
@@ -18,6 +25,10 @@ abstract: >-
   primary sources behind each figure. Figures are dated and attributed to the
   instrument or publication they come from.
 authors:
+  - family-names: "Sevimli"
+    given-names: "Rüzgar"
+    affiliation: "Ra Legal, Istanbul Bar Association"
+    country: TR
   - name: "Ra Legal"
     city: "Istanbul"
     country: TR

@@ -138,15 +138,15 @@ change: check the `asOf` field in each file, and the Resmî Gazete for amendment
 GitHub renders a **Cite this repository** button from
 [`CITATION.cff`](CITATION.cff). In text:
 
-> Ra Legal (2026). *Turkish Citizenship by Investment: Open Data*, version 1.1.0.
-> https://ralegal.com.tr/data/turkish-cbi-open-data
+> Sevimli, R. and Ra Legal (2026). *Turkish Citizenship by Investment: Open
+> Data*, version 1.1.0. https://ralegal.com.tr/data/turkish-cbi-open-data
 
 BibTeX:
 
 ```bibtex
 @dataset{ralegal_turkish_cbi_data_2026,
   title     = {Turkish Citizenship by Investment: Open Data},
-  author    = {{Ra Legal}},
+  author    = {Sevimli, R{\\"u}zgar and {Ra Legal}},
   year      = {2026},
   version   = {1.1.0},
   publisher = {Ra Legal},
