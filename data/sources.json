@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "name": "Turkish citizenship by investment: primary source index",
   "description": "Machine-readable index of the primary legal instruments, official statistical publications and official statements behind the datasets in this repository. Every figure published here is traceable to an entry in this file.",
-  "asOf": "2026-11-11",
+  "asOf": "2026-11-12",
   "license": "CC BY 4.0",
   "repository": "https://github.com/Ralegal/turkish-cbi-data",
   "maintainer": {
@@ -156,7 +156,7 @@
       },
       "inForceFrom": "2022-06-13",
       "publisher": "Cumhurbaskanligi",
-      "effect": "Raised the real estate threshold from USD 250,000 to USD 400,000, in force one month after publication.",
+      "effect": "Raised the real estate threshold from USD 250,000 to USD 400,000, in force one month after publication. The same amendment added the private pension route at USD 500,000 as Article 20(2)(f), in force on the date of publication, while the real estate rise took effect one month later.",
       "url": null,
       "verification": "official_reference_located",
       "lastChecked": "2026-11-08"
@@ -537,6 +537,32 @@
       "verification": "official_text_located",
       "lastChecked": "2026-11-11",
       "note": "Entered to support the annulment and withdrawal page. The specific time limit and forum for a challenge are not yet stated on that page: see the open question below."
+    },
+    {
+      "id": "invest-gov-tr",
+      "kind": "official_publication",
+      "titleTr": "T.C. Cumhurbaskanligi Yatirim Ofisi, Tasinmaz Edinimi ve Vatandaslik",
+      "titleEn": "Presidency of the Republic of Turkiye Investment Office, Acquiring Property and Citizenship",
+      "instrument": null,
+      "resmiGazete": null,
+      "publisher": "T.C. Cumhurbaskanligi Yatirim Ofisi",
+      "effect": "Official restatement of the seven qualifying routes with the ministry or agency that certifies each. Used as corroboration of the routes, never as the basis for a figure: the basis is the Regulation. The page itself carries a notice that it is a test version of the English site.",
+      "url": "https://www.invest.gov.tr/en/investmentguide/pages/acquiring-property-and-citizenship.aspx",
+      "verification": "official_text_located",
+      "lastChecked": "2026-11-12"
+    },
+    {
+      "id": "seddk",
+      "kind": "regulator",
+      "titleTr": "Sigortacilik ve Ozel Emeklilik Duzenleme ve Denetleme Kurumu",
+      "titleEn": "Insurance and Private Pension Regulation and Supervision Agency",
+      "instrument": null,
+      "resmiGazete": null,
+      "publisher": "SEDDK",
+      "effect": "Determines the funds in which a qualifying private pension contribution must be held and certifies that the contribution was made. Its published notice sets out the certificate of conformity procedure, that exchange-rate movement below the threshold does not affect the application, that the contribution may not be split across contracts, and that the state contribution does not apply.",
+      "url": "https://www.seddk.gov.tr",
+      "verification": "official_reference_located",
+      "lastChecked": "2026-11-12"
     }
   ],
   "datasetSourceMap": {
@@ -547,7 +573,9 @@
       "bkk-2017-10008",
       "cbk-106",
       "cbk-5554",
-      "cbk-5072"
+      "cbk-5072",
+      "invest-gov-tr",
+      "seddk"
     ],
     "data/government-costs.csv": [
       "law-492",

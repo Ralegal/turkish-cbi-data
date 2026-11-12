@@ -49,6 +49,21 @@
       "conversionNote": "Whether the Art. 20(10) lira-conversion requirement applies to this sub-paragraph is not yet confirmed by counsel."
     },
     {
+      "route": "private_pension",
+      "label": "Private pension contribution",
+      "minimum": 500000,
+      "basis": "Contribution to a private pension (BES) held in funds determined by the Insurance and Private Pension Regulation and Supervision Agency (SEDDK), which also certifies that the contribution was made",
+      "holdingPeriodYears": 3,
+      "holdingNote": "Three years in the private pension system, running from the date the lira equivalent reaches the company's accounts rather than from the contract date.",
+      "effectiveFrom": "2022-05-13",
+      "conversionNote": "Lira conversion applies on this route: the Central Bank issued an application instruction for the foreign-currency sale. The exact mechanism is not restated here from the instruction's own text, which we have not read.",
+      "notes": [
+        "A later fall in the accumulated balance below USD 500,000 caused by exchange-rate movement does not of itself affect the application.",
+        "The contribution may not be split across more than one pension contract.",
+        "The 30 per cent state contribution to private pensions does not apply, because Additional Article 1 of Law No. 4632 requires the participant to be a Turkish citizen and the foreign investor is not one at the time of the contribution."
+      ]
+    },
+    {
       "route": "job_creation",
       "label": "Job creation",
       "minimum": null,
@@ -154,6 +169,16 @@
     {
       "name": "Regulation on the Implementation of the Turkish Citizenship Law",
       "article": "20"
+    },
+    {
+      "name": "Regulation on the Implementation of the Turkish Citizenship Law",
+      "article": "20(2)(f)",
+      "note": "Private pension route, added by the amendment published on 13 May 2022, Resmi Gazete issue 31834."
+    },
+    {
+      "name": "Presidency of the Republic of Turkiye Investment Office, Acquiring Property and Citizenship",
+      "url": "https://www.invest.gov.tr/en/investmentguide/pages/acquiring-property-and-citizenship.aspx",
+      "note": "Official corroboration of all seven routes and of the ministry or agency that certifies each. Not the legal basis for any figure."
     }
   ]
 }
