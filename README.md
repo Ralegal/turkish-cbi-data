@@ -183,17 +183,13 @@ This repository is maintained by **Ra Legal**, a law firm in Istanbul, Türkiye.
 The attorneys who maintain it are registered with the Istanbul Bar Association
 (İstanbul Barosu):
 
-| Name | Role | Bar |
-|---|---|---|
-| Av. Rüzgar Sevimli | Founding Partner | Istanbul Bar Association |
-| Av. Merve Elik | Attorney | Istanbul Bar Association |
+| Name | Role | Bar | Registration |
+|---|---|---|---|
+| Av. Rüzgar Sevimli | Founding Partner | Istanbul Bar Association | 69519 |
 
-<!--
-TODO: add the Istanbul Bar Association registration (sicil) numbers for
-Av. Rüzgar Sevimli and Av. Merve Elik once confirmed with the Bar. Do not
-publish a number that has not been confirmed. The Bar's own records are the
-reference: https://www.istanbulbarosu.org.tr
--->
+The registration number is published so that anyone relying on this data can
+check who stands behind it against the Bar's own roll, rather than against an
+assertion made here: https://www.istanbulbarosu.org.tr
 
 Working languages: English and Turkish.
 
