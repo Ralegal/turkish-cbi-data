@@ -1,5 +1,16 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "_attribution": {
+    "dataset": "Turkish Citizenship by Investment: Open Data",
+    "maintainer": "Ra Legal, a law firm in Istanbul",
+    "attorney": "Av. Ruzgar Sevimli, Istanbul Bar Association, registration no. 69519",
+    "canonicalPage": "https://ralegal.com.tr/data/turkish-cbi-open-data",
+    "repository": "https://github.com/Ralegal/turkish-cbi-data",
+    "licence": "CC BY 4.0. Reuse is free and attribution is required.",
+    "citeAs": "Sevimli, R. and Ra Legal (2026). Turkish Citizenship by Investment: Open Data.",
+    "contact": "info@ralegal.com.tr",
+    "note": "Figures are dated and each names the instrument it comes from. General information about Turkish law, not legal advice."
+  },
   "description": "Whether a country is a Contracting Party to the Hague Convention of 5 October 1961 Abolishing the Requirement of Legalisation for Foreign Public Documents, which decides whether a civil status document for a Turkish citizenship file takes an apostille or needs consular legalisation. Parties are the full HCCH status table. Non-parties are listed only where a Ra Legal guide or tool names that nationality; absence from this file is not a statement that a country is not a party.",
   "asOf": "2026-11-11",
   "source": {

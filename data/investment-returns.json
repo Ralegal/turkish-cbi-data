@@ -1,5 +1,16 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "_attribution": {
+    "dataset": "Turkish Citizenship by Investment: Open Data",
+    "maintainer": "Ra Legal, a law firm in Istanbul",
+    "attorney": "Av. Ruzgar Sevimli, Istanbul Bar Association, registration no. 69519",
+    "canonicalPage": "https://ralegal.com.tr/data/turkish-cbi-open-data",
+    "repository": "https://github.com/Ralegal/turkish-cbi-data",
+    "licence": "CC BY 4.0. Reuse is free and attribution is required.",
+    "citeAs": "Sevimli, R. and Ra Legal (2026). Turkish Citizenship by Investment: Open Data.",
+    "contact": "info@ralegal.com.tr",
+    "note": "Figures are dated and each names the instrument it comes from. General information about Turkish law, not legal advice."
+  },
   "description": "Year-end series used to express the dollar outcome of each qualifying investment route. Index levels and rates as published by the sources named; the dollar conversion is done by the consumer using the fx series. Published so that the site tool, the connector and this dataset compute from the same numbers. Not investment advice and not an investable product: gross of taxes, fund fees and transaction costs.",
   "asOf": "2026-11-06",
   "note": "The 2026 values are partial-year, to 6 November 2026.",

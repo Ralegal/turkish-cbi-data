@@ -1,5 +1,16 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "_attribution": {
+    "dataset": "Turkish Citizenship by Investment: Open Data",
+    "maintainer": "Ra Legal, a law firm in Istanbul",
+    "attorney": "Av. Ruzgar Sevimli, Istanbul Bar Association, registration no. 69519",
+    "canonicalPage": "https://ralegal.com.tr/data/turkish-cbi-open-data",
+    "repository": "https://github.com/Ralegal/turkish-cbi-data",
+    "licence": "CC BY 4.0. Reuse is free and attribution is required.",
+    "citeAs": "Sevimli, R. and Ra Legal (2026). Turkish Citizenship by Investment: Open Data.",
+    "contact": "info@ralegal.com.tr",
+    "note": "Figures are dated and each names the instrument it comes from. General information about Turkish law, not legal advice."
+  },
   "description": "Observed durations per stage of a Turkish citizenship-by-investment file, as seen by Ra Legal. These are not official figures. No Turkish authority publishes an end-to-end processing time and no statute sets a deadline; the only official artefact is the Ankara Governorship service-standards row, which covers one stage. Published so that the figure quoted on ralegal.com.tr, in the connector and here is one figure.",
   "asOf": "2026-11-11",
   "basis": "observed",

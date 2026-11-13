@@ -1,0 +1,40 @@
+{
+  "upload_type": "dataset",
+  "title": "Turkish Citizenship by Investment: Open Data",
+  "description": "<p>Machine-readable reference data on T&uuml;rkiye's citizenship-by-investment programme. Qualifying investment thresholds and the statutory basis for each, the conditions attached to every route, government and third-party transaction costs, the documents an application requires by nationality and family position, published statistics on citizenship acquisitions and foreign property purchases, and an index of the primary sources behind each figure.</p><p>Every figure is dated and attributed to the instrument or publication it comes from, with its Resm&icirc; Gazete date where one exists. The dataset also records, explicitly, what T&uuml;rkiye does not publish and which figures in circulation do not reconcile against primary sources, so that gaps are visible rather than silently interpolated.</p><p>Maintained by Ra Legal, a law firm in Istanbul, and by Av. R&uuml;zgar Sevimli, registered with the Istanbul Bar Association under number 69519. The registration number is published so that anyone relying on the data can check who stands behind it against the Bar's own roll.</p><p>General information about Turkish law. Not legal advice.</p>",
+  "access_right": "open",
+  "license": "cc-by-4.0",
+  "language": "eng",
+  "creators": [
+    {
+      "name": "Sevimli, Rüzgar",
+      "affiliation": "Ra Legal, Istanbul Bar Association"
+    },
+    {
+      "name": "Ra Legal",
+      "affiliation": "Istanbul, Türkiye"
+    }
+  ],
+  "keywords": [
+    "Turkiye",
+    "Turkish citizenship",
+    "citizenship by investment",
+    "investment migration",
+    "golden visa",
+    "residence permit",
+    "real estate",
+    "immigration law",
+    "legal data",
+    "open data",
+    "Law No. 5901"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://ralegal.com.tr/data/turkish-cbi-open-data",
+      "relation": "isDocumentedBy",
+      "resource_type": "other",
+      "scheme": "url"
+    }
+  ],
+  "notes": "Reuse is free under CC BY 4.0 and attribution is required. When citing a single figure, cite that record's own source field as well: that is what the field is for."
+}
