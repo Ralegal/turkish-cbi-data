@@ -191,15 +191,15 @@ The registration number is published so that anyone relying on this data can
 check who stands behind it against the Bar's own roll, rather than against an
 assertion made here: https://www.istanbulbarosu.org.tr
 
-Working languages: English and Turkish.
+Working languages: English, Turkish, Chinese, Arabic and Urdu.
 
 Practice areas relevant to this data: Turkish citizenship by investment;
 immigration, residence and work permits; real estate; banking and finance;
 corporate; litigation.
 
 **Address**
-Ra Legal, Cumhuriyet Mahallesi, İncirli Dede Caddesi No: 4/3705, Şişli,
-Istanbul, Türkiye
+Ra Legal, Nurol Tower, Kat 21, İzzetpaşa Mahallesi, Yeni Yol Caddesi No: 3,
+Şişli, Istanbul, Türkiye
 
 **Contact**
 info@ralegal.com.tr  ·  +90 537 734 82 63 (WhatsApp)  ·  https://ralegal.com.tr
