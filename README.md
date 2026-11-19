@@ -1,5 +1,7 @@
 # Turkish Citizenship by Investment: Open Data
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24372293.svg)](https://doi.org/10.5281/zenodo.24372293)
+
 Machine-readable reference data on Türkiye's citizenship-by-investment
 programme: qualifying thresholds and the instrument that set each one, the rules
 attached to each route, government transaction costs, the documents an
@@ -174,7 +176,7 @@ GitHub renders a **Cite this repository** button from
 [`CITATION.cff`](CITATION.cff). In text:
 
 > Sevimli, R. and Ra Legal (2026). *Turkish Citizenship by Investment: Open
-> Data*, version 1.3.0. https://ralegal.com.tr/data/turkish-cbi-open-data
+> Data*, version 1.3.0. https://doi.org/10.5281/zenodo.24372293
 
 BibTeX:
 
@@ -184,6 +186,7 @@ BibTeX:
   author    = {Sevimli, R{\\"u}zgar and {Ra Legal}},
   year      = {2026},
   version   = {1.3.0},
+  doi       = {10.5281/zenodo.24372293},
   publisher = {Ra Legal},
   address   = {Istanbul, T\"urkiye},
   license   = {CC-BY-4.0},
