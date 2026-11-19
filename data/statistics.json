@@ -13,7 +13,7 @@
   },
   "name": "Turkish citizenship by investment: statistics",
   "description": "Long-format observations on Turkish citizenship acquisitions, the investment route, foreign property purchases, threshold and rule changes, and 2026 enforcement action. Every record names its source and an as-of date. value is null where the figure is not published.",
-  "asOf": "2026-11-08",
+  "asOf": "2026-11-19",
   "updateCadence": "quarterly",
   "license": "CC BY 4.0",
   "canonicalPage": "https://ralegal.com.tr/turkish-cbi-statistics",
@@ -22,7 +22,9 @@
   "conventions": {
     "value": "Number where published; null where not published. published flags which.",
     "source": "Named for every record. Where a figure reached the public through a ministerial statement or a parliamentary answer rather than a published table, the source field says so.",
-    "asOf": "Date the figure was published or restated, not the date this file was built."
+    "asOf": "Date the figure was published or restated, not the date this file was built.",
+    "description": "Optional. Says what a record counts where the dimension name alone could be misread.",
+    "previousDimension": "Optional. The dimension name a record carried in an earlier release, kept so that a reader filtering on the old name can find the record. Dimensions are renamed only where the old name misdescribed the figure."
   },
   "notKnown": [
     "Goc Idaresi Baskanligi publishes no citizenship-acquisition statistics series. Annual figures reach the public through ministerial statements and parliamentary answers.",
@@ -33,7 +35,7 @@
     "No 2026 year-to-date nationality or province breakdown of foreign house sales is published.",
     "No official average transaction value for foreign property purchases is published by TUIK, TKGM or TCMB.",
     "The revised TUIK series year mapping for 2013 to 2021 is derived by ratio matching, not read off an official table.",
-    "Appraisal report validity: the Kilavuz of 1 February 2024 states 3 months, post-2026 secondary reporting states 12 months. The sources disagree and the 9 December 2024 Kilavuz could not be read.",
+    "Appraisal report validity is no longer an open point: 3 months under TKGM Circular 2024/2 from 4 March 2024, and 12 months since that circular was updated by Makam Oluru of 28 September 2026. What remains unread is the text of the September 2026 amendment to Circular 2024/4, reported to extend the six-month window between the Tutar Tespit Belgesi and the citizenship application to twelve months.",
     "The current status of the closed-neighbourhood regime for residence permits is unresolved. No official announcement lifting or restating the 2022 position was located.",
     "The legal instrument behind the USD 200,000 residence-permit property threshold of 16 October 2023 could not be identified.",
     "Overlap between the cumulative 6,134 cancellations and the 687 and 1,070 criminal-file identifications is unquantified."
@@ -2066,7 +2068,7 @@
           "value": 250000,
           "unit": "usd",
           "published": true,
-          "source": "Cumhurbaskanligi Kararnamesi 106, Resmi Gazete 19 September 2018 No. 30540",
+          "source": "Cumhurbaskani Karari 106, Resmi Gazete 19 September 2018 No. 30540",
           "asOf": "2026-11-08"
         },
         {
@@ -2133,7 +2135,7 @@
           "value": 500000,
           "unit": "usd",
           "published": true,
-          "source": "Cumhurbaskanligi Kararnamesi 106, Resmi Gazete 19 September 2018 No. 30540",
+          "source": "Cumhurbaskani Karari 106, Resmi Gazete 19 September 2018 No. 30540",
           "asOf": "2026-11-08"
         },
         {
@@ -2142,7 +2144,7 @@
           "value": 500000,
           "unit": "usd",
           "published": true,
-          "source": "Cumhurbaskanligi Kararnamesi 106, Resmi Gazete 19 September 2018 No. 30540",
+          "source": "Cumhurbaskani Karari 106, Resmi Gazete 19 September 2018 No. 30540",
           "asOf": "2026-11-08"
         },
         {
@@ -2151,7 +2153,7 @@
           "value": 500000,
           "unit": "usd",
           "published": true,
-          "source": "Cumhurbaskanligi Kararnamesi 106, Resmi Gazete 19 September 2018 No. 30540",
+          "source": "Cumhurbaskani Karari 106, Resmi Gazete 19 September 2018 No. 30540",
           "asOf": "2026-11-08"
         },
         {
@@ -2160,7 +2162,7 @@
           "value": 500000,
           "unit": "usd",
           "published": true,
-          "source": "Cumhurbaskanligi Kararnamesi 106, Resmi Gazete 19 September 2018 No. 30540",
+          "source": "Cumhurbaskani Karari 106, Resmi Gazete 19 September 2018 No. 30540",
           "asOf": "2026-11-08"
         },
         {
@@ -2169,7 +2171,7 @@
           "value": 50,
           "unit": "persons",
           "published": true,
-          "source": "Cumhurbaskanligi Kararnamesi 106, Resmi Gazete 19 September 2018 No. 30540",
+          "source": "Cumhurbaskani Karari 106, Resmi Gazete 19 September 2018 No. 30540",
           "asOf": "2026-11-08"
         },
         {
@@ -2218,38 +2220,44 @@
         },
         {
           "period": "2026",
-          "dimension": "fraud_certificates_cancelled_investors",
+          "dimension": "valuation_report_certificates_cancelled_investors",
+          "description": "Investors whose investment conformity certificates (yatırım uygunluk belgesi) were cancelled because false or irregular valuation (ekspertiz) reports were used to meet the investment conditions.",
+          "previousDimension": "fraud_certificates_cancelled_investors",
           "value": 1150,
           "unit": "people",
           "published": true,
-          "source": "Ministry of Interior written statement, Law No. 5901 Art. 31",
+          "source": "Ministry of Interior statement of 21 September 2026, as reported by the press (Karar, Turkish Minute); the Ministry's own page could not be retrieved. The article reference, Law No. 5901 Art. 31 (annulment), is this dataset's classification; the statement as reported does not cite one.",
           "asOf": "2026-09-21"
         },
         {
           "period": "2026",
-          "dimension": "fraud_certificates_cancelled_people",
+          "dimension": "valuation_report_citizenship_annulled_people",
+          "description": "People, investors and family members, whose citizenship decisions were annulled following the cancellation of those certificates over false or irregular valuation reports.",
+          "previousDimension": "fraud_certificates_cancelled_people",
           "value": 5391,
           "unit": "people",
           "published": true,
-          "source": "Ministry of Interior written statement, Law No. 5901 Art. 31",
+          "source": "Ministry of Interior statement of 21 September 2026, as reported by the press (Karar, Turkish Minute); the Ministry's own page could not be retrieved. The article reference, Law No. 5901 Art. 31 (annulment), is this dataset's classification; the statement as reported does not cite one.",
           "asOf": "2026-09-21"
         },
         {
           "period": "2026",
           "dimension": "security_withdrawal_investors",
+          "description": "Investors whose citizenship decisions were withdrawn after security reviews found public order or national security objections. Counted separately from the valuation-report annulments.",
           "value": 263,
           "unit": "people",
           "published": true,
-          "source": "Ministry of Interior written statement, Law No. 5901 Art. 40",
+          "source": "Ministry of Interior statement of 21 September 2026, as reported by the press (Karar, Turkish Minute); the Ministry's own page could not be retrieved. The article reference, Law No. 5901 Art. 40 (withdrawal), is this dataset's classification; the statement as reported does not cite one.",
           "asOf": "2026-09-21"
         },
         {
           "period": "2026",
           "dimension": "security_withdrawal_people",
+          "description": "People, investors and family members, whose citizenship decisions were withdrawn following those security reviews. Counted separately from the valuation-report annulments.",
           "value": 743,
           "unit": "people",
           "published": true,
-          "source": "Ministry of Interior written statement, Law No. 5901 Art. 40",
+          "source": "Ministry of Interior statement of 21 September 2026, as reported by the press (Karar, Turkish Minute); the Ministry's own page could not be retrieved. The article reference, Law No. 5901 Art. 40 (withdrawal), is this dataset's classification; the statement as reported does not cite one.",
           "asOf": "2026-09-21"
         }
       ]

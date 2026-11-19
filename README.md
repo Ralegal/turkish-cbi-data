@@ -33,7 +33,7 @@ reconcile with published data.
 
 ## At a glance
 
-As of **8 November 2026**, under Law No. 5901 Art. 12(1)(b) and Art. 20 of the
+As of **19 November 2026**, under Law No. 5901 Art. 12(1)(b) and Art. 20 of the
 implementing Regulation (BKK 2010/139):
 
 | Route | Minimum | Holding period | Basis of the figure |
@@ -45,11 +45,19 @@ implementing Regulation (BKK 2010/139):
 | Fixed capital investment | USD 500,000 | not applicable | Certified by the Ministry of Industry and Technology |
 | Job creation | 50 employees | not applicable | Certified by the Ministry of Labour and Social Security |
 
-A single qualifying investment covers the applicant, their spouse and children
-under 18. Age is assessed at the application date, not the decision date. There
+A single qualifying investment covers the applicant, their foreign spouse, and
+the minor or dependent foreign children of the applicant and of the spouse (Law
+No. 5901 Art. 12(1)(b): "ergin olmayan veya bağımlı yabancı çocuğu"). A child
+aged 18 or over is within the text if dependent; the statute does not define
+dependency and it is assessed file by file. Age is assessed at the application
+date, not the decision date. There
 is no residence requirement, no language test and no interview. Funds must move
 through the Turkish banking system, and a currency conversion certificate (döviz
-alım belgesi) is mandatory.
+alım belgesi) is mandatory. Under Regulation Art. 20(10), as amended by Decision
+No. 5554, the foreign currency for the real estate, deposit, government debt,
+fund share and private pension routes (sub-paragraphs (b), (ç), (d), (e) and (f))
+is sold to a bank operating in Türkiye and by that bank to the Central Bank. The
+rule does not reach fixed capital investment (a) or job creation (c).
 
 ## What is the minimum investment for Turkish citizenship?
 
@@ -68,12 +76,12 @@ machine-readable version.
 | 2017-01-12 | Government bonds | USD 3,000,000 | BKK 2016/9601, Resmî Gazete 12 January 2017 No. 29946 |
 | 2017-01-12 | Fixed capital investment | USD 2,000,000 | BKK 2016/9601, Resmî Gazete 12 January 2017 No. 29946 |
 | 2017-01-12 | Job creation | 100 employees | BKK 2016/9601, Resmî Gazete 12 January 2017 No. 29946 |
-| 2018-09-19 | Real estate | USD 250,000 | Presidential Decree 106, Resmî Gazete 19 September 2018 No. 30540 |
-| 2018-09-19 | Bank deposit | USD 500,000 | Presidential Decree 106, Resmî Gazete 19 September 2018 No. 30540 |
-| 2018-09-19 | Government bonds | USD 500,000 | Presidential Decree 106, Resmî Gazete 19 September 2018 No. 30540 |
-| 2018-09-19 | Investment fund shares | USD 500,000 | Presidential Decree 106, Resmî Gazete 19 September 2018 No. 30540 |
-| 2018-09-19 | Fixed capital investment | USD 500,000 | Presidential Decree 106, Resmî Gazete 19 September 2018 No. 30540 |
-| 2018-09-19 | Job creation | 50 employees | Presidential Decree 106, Resmî Gazete 19 September 2018 No. 30540 |
+| 2018-09-19 | Real estate | USD 250,000 | Presidential Decision 106, Resmî Gazete 19 September 2018 No. 30540 |
+| 2018-09-19 | Bank deposit | USD 500,000 | Presidential Decision 106, Resmî Gazete 19 September 2018 No. 30540 |
+| 2018-09-19 | Government bonds | USD 500,000 | Presidential Decision 106, Resmî Gazete 19 September 2018 No. 30540 |
+| 2018-09-19 | Investment fund shares | USD 500,000 | Presidential Decision 106, Resmî Gazete 19 September 2018 No. 30540 |
+| 2018-09-19 | Fixed capital investment | USD 500,000 | Presidential Decision 106, Resmî Gazete 19 September 2018 No. 30540 |
+| 2018-09-19 | Job creation | 50 employees | Presidential Decision 106, Resmî Gazete 19 September 2018 No. 30540 |
 | 2022-06-13 | Real estate | USD 400,000 | Presidential Decision 5554, Resmî Gazete 13 May 2022 No. 31834, in force 13 June 2022 |
 
 ## What does it cost beyond the investment?
@@ -108,7 +116,7 @@ excluded.
 | Citizenship acquisitions, 2016 to 2025, cumulative | 562,701 people | NVİ figures, reported by DW Türkçe | 2026-08-09 |
 | Investment route since 2018 | 174,567 people, of whom 51,762 principal investors and 122,805 spouses and children | Interior Minister Mustafa Çiftçi, statement of 29 May 2026 | 2026-05-29 |
 | Investment attracted since 2018 | USD 16.074 billion | Interior Minister Mustafa Çiftçi, statement of 29 May 2026 | 2026-05-29 |
-| Citizenships cancelled or withdrawn, cumulative | 6,134 people, covering 1,413 principal investors (5,391 on fraud grounds under Art. 31, 743 on public order or national security grounds under Art. 40) | Ministry of Interior written statement of 4 August 2026, restated 21 September 2026 | 2026-09-21 |
+| Citizenships cancelled or withdrawn, cumulative | 6,134 people, covering 1,413 principal investors: 5,391 people (1,150 investors) whose citizenship was annulled after their investment conformity certificates were cancelled over false or irregular valuation reports, and 743 people (263 investors) whose citizenship was withdrawn after security reviews found public order or national security objections | Ministry of Interior written statement of 4 August 2026, restated 21 September 2026; the split is from the statement of 21 September 2026 as reported by the press, the Ministry's own page could not be retrieved | 2026-09-21 |
 | Foreign house purchases, 2025 | 21,534 dwellings, 1.3% of all house sales (22,980 on the revised TÜİK series) | TÜİK annual bulletin, read through BMD Araştırma reproductions | 2026-01-22 |
 | Foreign house purchases, January to September 2026 | 15,308 dwellings, down 4.3% year on year | TÜİK September 2026 bulletin, released 16 October 2026 | 2026-10-16 |
 | Net real-estate acquisition by non-residents, 2025 | USD 2,342 million (provisional) | TCMB balance of payments, line 1.2.3 Gayrimenkul (Net) | 2026-10-31 |
@@ -138,19 +146,19 @@ checked against another source because no other source states it.
 - No 2026 year-to-date nationality or province breakdown of foreign house sales is published.
 - No official average transaction value for foreign property purchases is published by TUIK, TKGM or TCMB.
 - The revised TUIK series year mapping for 2013 to 2021 is derived by ratio matching, not read off an official table.
-- Appraisal report validity: the Kilavuz of 1 February 2024 states 3 months, post-2026 secondary reporting states 12 months. The sources disagree and the 9 December 2024 Kilavuz could not be read.
+- Appraisal report validity is no longer an open point: 3 months under TKGM Circular 2024/2 from 4 March 2024, and 12 months since that circular was updated by Makam Oluru of 28 September 2026. What remains unread is the text of the September 2026 amendment to Circular 2024/4, reported to extend the six-month window between the Tutar Tespit Belgesi and the citizenship application to twelve months.
 - The current status of the closed-neighbourhood regime for residence permits is unresolved. No official announcement lifting or restating the 2022 position was located.
 - The legal instrument behind the USD 200,000 residence-permit property threshold of 16 October 2023 could not be identified.
 - Overlap between the cumulative 6,134 cancellations and the 687 and 1,070 criminal-file identifications is unquantified.
 
 **Figures in circulation that this dataset does not use, and why:**
 
-- **January 2026 foreign house sales of 1,547** — not used. Inconsistent with five published TUIK cumulatives, which give 1,306.
-- **China 41 units for full-year 2025** — not used. Implausible against 110 units in April 2026 alone; not used.
-- **About 15,000 investment-route principals and 40,000 people to end-2025** — not used. Undated source with no primary link; contradicts the Interior Minister figures by a factor of about 3.5. Not used.
-- **1,757 people in revocation proceedings** — not used. A derived sum of 687 and 1,070 published by a trade outlet, not by any authority, with overlap unclarified. Carried in the data only as a flagged derived record.
-- **Automatic 25 per cent uplift on valuations** — not used. No primary text; described as unreliable by practitioners.
-- **Real-estate threshold rising to USD 600,000 or USD 500,000** — not used. Never enacted. The consolidated Regulation still reads USD 400,000.
+- **January 2026 foreign house sales of 1,547**: not used. Inconsistent with five published TUIK cumulatives, which give 1,306.
+- **China 41 units for full-year 2025**: not used. Implausible against 110 units in April 2026 alone; not used.
+- **About 15,000 investment-route principals and 40,000 people to end-2025**: not used. Undated source with no primary link; contradicts the Interior Minister figures by a factor of about 3.5. Not used.
+- **1,757 people in revocation proceedings**: not used. A derived sum of 687 and 1,070 published by a trade outlet, not by any authority, with overlap unclarified. Carried in the data only as a flagged derived record.
+- **Automatic 25 per cent uplift on valuations**: not used. No primary text; described as unreliable by practitioners.
+- **Real-estate threshold rising to USD 600,000 or USD 500,000**: not used. Never enacted. The consolidated Regulation still reads USD 400,000.
 
 Each of these is a statement by Ra Legal, Istanbul, maintainer of this dataset.
 Where a figure is absent the series must not be interpolated; where a circulating
@@ -162,7 +170,9 @@ Figures come from the primary instruments and official publications indexed in
 [`data/sources.json`](data/sources.json). Each entry there carries a
 `verification` status, so a reader can see which citations have been matched to
 an official text and which still rest on secondary reporting, and an
-`openQuestions` list records what is still unresolved.
+`openQuestions` list records what is still unresolved. Questions answered from a
+primary text move to `closedQuestions` with the answer and its sources, so the
+record of what was once in doubt is kept.
 
 Cost ranges are typical observed values, not quotes, and vary by property,
 province and bank. Statistical records are reproduced as published, including

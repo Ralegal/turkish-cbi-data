@@ -12,7 +12,7 @@
     "note": "Figures are dated and each names the instrument it comes from. General information about Turkish law, not legal advice."
   },
   "description": "Qualifying investment thresholds for Turkish citizenship under Law No. 5901 Art. 12(1)(b) and Art. 20 of the implementing Regulation.",
-  "asOf": "2026-11-11",
+  "asOf": "2026-11-19",
   "currency": "USD",
   "current": [
     {
@@ -22,7 +22,10 @@
       "basis": "Official SPK-licensed appraisal value, not the contract price",
       "holdingPeriodYears": 3,
       "annotation": "Three-year no-sale annotation recorded on the title deed (tapu)",
-      "effectiveFrom": "2022-06-13"
+      "effectiveFrom": "2022-06-13",
+      "regulationSubParagraph": "20(2)(b)",
+      "liraConversionApplies": true,
+      "conversionNote": "Art. 20(10) names sub-paragraph (b): the foreign currency is sold to a bank operating in Turkiye and by that bank to the Central Bank before the transaction. The paragraph does not say in what form the proceeds are then held, because they pay for the property."
     },
     {
       "route": "bank_deposit",
@@ -30,7 +33,10 @@
       "minimum": 500000,
       "basis": "Turkish lira deposit in a bank operating in Turkiye, after the foreign currency is sold to the bank and by the bank to the Central Bank (Regulation Art. 20(10), since 6 January 2022)",
       "holdingPeriodYears": 3,
-      "effectiveFrom": "2018-09-19"
+      "effectiveFrom": "2018-09-19",
+      "regulationSubParagraph": "20(2)(ç)",
+      "liraConversionApplies": true,
+      "conversionNote": "Art. 20(10) names sub-paragraph (ç): the foreign currency is sold to a bank operating in Turkiye and by that bank to the Central Bank, and the lira proceeds are held in a Turkish lira deposit for three years. The deposit is a lira deposit, not a foreign currency deposit or a choice between the two."
     },
     {
       "route": "government_bonds",
@@ -39,7 +45,9 @@
       "basis": "Certified by the Ministry of Treasury and Finance",
       "holdingPeriodYears": 3,
       "effectiveFrom": "2018-09-19",
-      "conversionNote": "Whether the Art. 20(10) lira-conversion requirement applies to this sub-paragraph is not yet confirmed by counsel."
+      "regulationSubParagraph": "20(2)(d)",
+      "liraConversionApplies": true,
+      "conversionNote": "Art. 20(10) names sub-paragraph (d): the foreign currency is sold to a bank operating in Turkiye and by that bank to the Central Bank, and the lira proceeds are held in lira-denominated government debt instruments for three years."
     },
     {
       "route": "investment_fund",
@@ -48,7 +56,9 @@
       "basis": "Real-estate or venture capital fund shares (GYF/GSYF)",
       "holdingPeriodYears": 3,
       "effectiveFrom": "2018-09-19",
-      "conversionNote": "Whether the Art. 20(10) lira-conversion requirement applies to this sub-paragraph is not yet confirmed by counsel."
+      "regulationSubParagraph": "20(2)(e)",
+      "liraConversionApplies": true,
+      "conversionNote": "Art. 20(10) names sub-paragraph (e): the foreign currency is sold to a bank operating in Turkiye and by that bank to the Central Bank before the transaction. The paragraph's second sentence, on how the lira proceeds are held, does not mention (e)."
     },
     {
       "route": "fixed_capital",
@@ -57,7 +67,9 @@
       "basis": "Certified by the Ministry of Industry and Technology",
       "holdingPeriodYears": null,
       "effectiveFrom": "2018-09-19",
-      "conversionNote": "Whether the Art. 20(10) lira-conversion requirement applies to this sub-paragraph is not yet confirmed by counsel."
+      "regulationSubParagraph": "20(2)(a)",
+      "liraConversionApplies": false,
+      "conversionNote": "Art. 20(10) does not name sub-paragraph (a), so the lira-conversion rule does not apply to fixed capital investment."
     },
     {
       "route": "private_pension",
@@ -67,7 +79,9 @@
       "holdingPeriodYears": 3,
       "holdingNote": "Three years in the private pension system, running from the date the lira equivalent reaches the company's accounts rather than from the contract date.",
       "effectiveFrom": "2022-05-13",
-      "conversionNote": "Lira conversion applies on this route: the Central Bank issued an application instruction for the foreign-currency sale. The exact mechanism is not restated here from the instruction's own text, which we have not read.",
+      "regulationSubParagraph": "20(2)(f)",
+      "liraConversionApplies": true,
+      "conversionNote": "Art. 20(10) names sub-paragraph (f): the foreign currency is sold to a bank operating in Turkiye and by that bank to the Central Bank, and the lira proceeds are held for three years in the funds within the private pension system determined by SEDDK. The last sentence of Art. 20(10) leaves the application rules to the Central Bank; those rules are not restated here.",
       "notes": [
         "A later fall in the accumulated balance below USD 500,000 caused by exchange-rate movement does not of itself affect the application.",
         "The contribution may not be split across more than one pension contract.",
@@ -81,7 +95,10 @@
       "employees": 50,
       "basis": "Certified by the Ministry of Labour and Social Security",
       "holdingPeriodYears": null,
-      "effectiveFrom": "2018-09-19"
+      "effectiveFrom": "2018-09-19",
+      "regulationSubParagraph": "20(2)(c)",
+      "liraConversionApplies": false,
+      "conversionNote": "Art. 20(10) does not name sub-paragraph (c), which is a number of employees and not an amount of currency."
     }
   ],
   "history": [
@@ -161,8 +178,11 @@
   "familyInclusion": {
     "spouse": true,
     "childrenUnder18": true,
-    "childrenOver18": false,
+    "dependentChildren": true,
+    "childrenOver18": null,
+    "childrenOver18Rule": "Not a yes-or-no field. Law No. 5901 Art. 12(1)(b) names the minor or dependent foreign children of the investor and of the spouse, so a child aged 18 or over is within the text if dependent. The statute does not define dependency; it is assessed file by file. Earlier releases gave false here, which the statutory wording does not support.",
     "parents": false,
+    "statutoryWording": "Law No. 5901 Art. 12(1)(b): \"bunların yabancı eşi, kendisinin ve eşinin ergin olmayan veya bağımlı yabancı çocuğu\"",
     "note": "Age is assessed at the application date, not at the decision date."
   },
   "requirements": {
@@ -175,7 +195,8 @@
   "sources": [
     {
       "name": "Turkish Citizenship Law No. 5901",
-      "article": "12(1)(b)"
+      "article": "12(1)(b)",
+      "note": "Family members: foreign spouse, minor or dependent foreign children."
     },
     {
       "name": "Regulation on the Implementation of the Turkish Citizenship Law",
@@ -185,6 +206,11 @@
       "name": "Regulation on the Implementation of the Turkish Citizenship Law",
       "article": "20(2)(f)",
       "note": "Private pension route, added by the amendment published on 13 May 2022, Resmi Gazete issue 31834."
+    },
+    {
+      "name": "Regulation on the Implementation of the Turkish Citizenship Law",
+      "article": "20(10)",
+      "note": "Lira conversion. As amended by Presidential Decision No. 5554 (Resmi Gazete 13 May 2022, issue 31834), it names sub-paragraphs (b), (ç), (d), (e) and (f)."
     },
     {
       "name": "Presidency of the Republic of Turkiye Investment Office, Acquiring Property and Citizenship",

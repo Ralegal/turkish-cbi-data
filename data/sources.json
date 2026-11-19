@@ -51,7 +51,7 @@
       "articlesUsed": [
         {
           "article": "12(1)(b)",
-          "subject": "Acquisition of Turkish citizenship by exceptional means, including persons determined to have brought investment into Turkiye"
+          "subject": "Acquisition of Turkish citizenship by exceptional means. Sub-paragraph (b) names persons holding a residence permit under Law No. 6458 Art. 31(1)(j) and Turquoise Card holders, with their foreign spouse and the minor or dependent foreign children of the person and of the spouse (\"kendisinin ve eşinin ergin olmayan veya bağımlı yabancı çocuğu\")."
         },
         {
           "article": "31",
@@ -72,7 +72,7 @@
       ],
       "url": "https://www.mevzuat.gov.tr/mevzuatmetin/1.5.5901.pdf",
       "verification": "official_text_located",
-      "lastChecked": "2026-11-08"
+      "lastChecked": "2026-11-19"
     },
     {
       "id": "regulation-2010-139",
@@ -93,13 +93,17 @@
         {
           "article": "20",
           "subject": "Procedure and criteria for exceptional acquisition of Turkish citizenship, including the qualifying investment amounts and holding periods"
+        },
+        {
+          "article": "20(10)",
+          "subject": "As amended by Presidential Decision No. 5554 (RG 13 May 2022): \"İkinci fıkranın (b), (ç), (d), (e) ve (f) bentlerinde belirtilen döviz tutarları işlem öncesinde Türkiye'de faaliyet gösteren bir bankaya ve bu bankaca da Merkez Bankasına satılır.\" The foreign currency for real estate (b), bank deposit (ç), government debt instruments (d), investment fund shares (e) and private pension (f) is sold to a bank operating in Turkiye and by that bank to the Central Bank before the transaction. The lira proceeds are held for three years in a lira deposit (ç), in lira-denominated government debt instruments (d) and in the SEDDK-determined pension funds (f). Fixed capital investment (a) and job creation (c) are not named."
         }
       ],
       "url": "https://www.mevzuat.gov.tr/MevzuatMetin/21.5.2010139.pdf",
       "originalTextUrl": "https://www.resmigazete.gov.tr/eskiler/2010/04/20100406-9.htm",
-      "note": "Article 20 has been amended repeatedly. The amendments that moved the thresholds are indexed separately below. Always read the consolidated text rather than the 2010 original.",
+      "note": "Article 20 has been amended repeatedly. The amendments that moved the thresholds are indexed separately below. Always read the consolidated text rather than the 2010 original. The consolidated text's header gives the Council of Ministers decision as 11 February 2010, No. 2010/139, published in the Resmi Gazete of 6 April 2010, No. 27544.",
       "verification": "official_text_located",
-      "lastChecked": "2026-11-08"
+      "lastChecked": "2026-11-19"
     },
     {
       "id": "bkk-2016-9601",
@@ -138,10 +142,10 @@
     {
       "id": "cbk-106",
       "kind": "amending_instrument",
-      "titleTr": "Cumhurbaskanligi Kararnamesi No. 106",
-      "titleEn": "Presidential Decree No. 106",
+      "titleTr": "Cumhurbaskani Karari No. 106",
+      "titleEn": "Presidential Decision No. 106",
       "number": "106",
-      "instrument": "Cumhurbaskanligi Kararnamesi",
+      "instrument": "Cumhurbaskani Karari",
       "amends": "regulation-2010-139",
       "resmiGazete": {
         "date": "2018-09-19",
@@ -149,9 +153,11 @@
       },
       "publisher": "Cumhurbaskanligi",
       "effect": "Cut the thresholds: real estate to USD 250,000, bank deposit, government bonds and investment fund shares to USD 500,000, fixed capital investment to USD 500,000, job creation to 50 employees.",
+      "note": "A Presidential Decision (Cumhurbaşkanı Kararı), not a Presidential Decree (Cumhurbaşkanlığı Kararnamesi). The footnotes of the consolidated Regulation on mevzuat.gov.tr cite it as \"19/9/2018 tarihli ve 30540 sayılı Resmi Gazete'de yayımlanan 106 sayılı Cumhurbaşkanı Kararı\". Earlier releases of this dataset labelled it a decree.",
       "url": null,
       "verification": "official_reference_located",
-      "lastChecked": "2026-11-08"
+      "lastChecked": "2026-11-19",
+      "titleTrNative": "106 sayılı Cumhurbaşkanı Kararı"
     },
     {
       "id": "cbk-5554",
@@ -167,10 +173,10 @@
       },
       "inForceFrom": "2022-06-13",
       "publisher": "Cumhurbaskanligi",
-      "effect": "Raised the real estate threshold from USD 250,000 to USD 400,000, in force one month after publication. The same amendment added the private pension route at USD 500,000 as Article 20(2)(f), in force on the date of publication, while the real estate rise took effect one month later.",
+      "effect": "Raised the real estate threshold from USD 250,000 to USD 400,000, in force one month after publication. The same amendment added the private pension route at USD 500,000 as Article 20(2)(f), in force on the date of publication, while the real estate rise took effect one month later. Article 2 of the Decision also rewrote Article 20(10), which since then names sub-paragraphs (b), (ç), (d), (e) and (f).",
       "url": null,
       "verification": "official_reference_located",
-      "lastChecked": "2026-11-08"
+      "lastChecked": "2026-11-19"
     },
     {
       "id": "law-492",
@@ -250,26 +256,89 @@
       "lastChecked": "2026-11-08"
     },
     {
+      "id": "tkgm-genelge-2024-2",
+      "kind": "circular",
+      "titleTr": "Tapu ve Kadastro Genel Mudurlugu 2024/2 sayili Genelge",
+      "titleTrNative": "Yabancıların Taşınmaz Edinimlerinde ve Bazı İşlemlerde Kullanılacak Değerleme Raporlarına İlişkin Usul ve Esaslar (Genelge 2024/2)",
+      "titleEn": "General Directorate of Land Registry and Cadastre Circular No. 2024/2, procedure for valuation reports used in property acquisitions by foreigners and certain other transactions",
+      "number": "2024/2",
+      "reference": "E-76015859-010.06.02-11942959",
+      "dated": "2024-03-01",
+      "inForceFrom": "2024-03-04",
+      "resmiGazete": null,
+      "publisher": "Tapu ve Kadastro Genel Mudurlugu (TKGM)",
+      "subject": "Valuation reports prepared in TADEBIS format for title deed transactions, including the reports used for the citizenship determination, and how long a report may be used.",
+      "versions": [
+        {
+          "version": "original",
+          "inForceFrom": "2024-03-04",
+          "validity": "3 months",
+          "quote": "Tapu işlemlerinde kullanılacak değerleme raporlarının kullanım süresi 3 aydır.",
+          "inForceQuote": "Bu genelge 04.03.2024 tarihinde yürürlüğe girer.",
+          "readFrom": "TKGM PDF https://www.tkgm.gov.tr/sites/default/files/2024-03/2024-2%20Genelge.pdf, read through the web.archive.org copy https://web.archive.org/web/20250710004135/https://www.tkgm.gov.tr/sites/default/files/2024-03/2024-2%20Genelge.pdf because the TKGM file host serves an HTML page instead of the PDF",
+          "verification": "official_text_located"
+        },
+        {
+          "version": "updated",
+          "updatedBy": "Makam Oluru of 2026-09-28, no. E-90759875-020-22003020",
+          "restsOn": "Ministry approval (Bakanlık Oluru) of 2026-09-18, no. 36189470-125.01.01/21900458",
+          "validity": "12 months",
+          "quote": "Tapu işlemlerinde kullanılacak değerleme raporlarının kullanım süresi 12 aydır.",
+          "appraiser": "Reports for the citizenship determination may be prepared by any valuation firm licensed by the Capital Markets Board (SPK) that is an active TDUB member included in TADEBIS, chosen by the applicant or assigned by algorithm: \"Sermaye Piyasası Kurulu lisanslı herhangi bir Değerleme Kuruluşu tarafından düzenlenebileceğine karar verilmiştir\"; \"tercihli veya otomatik algoritma üzerinden istenilen herhangi bir değerleme kuruluşu seçilerek başvuru yapılabilecektir\".",
+          "announced": "2026-09-29",
+          "announcementUrl": "https://www.tkgm.gov.tr/duyurular/20242-sayili-genelge-guncellemesi-hakkinda-duyuru",
+          "readFrom": "Copy of the updated circular at https://www.memurlar.net/common/news/documents/1179497/2024_2_guncel_genelge.pdf. The TKGM announcement page was read and links the same file name (2024_2_Güncel_Genelge.pdf), but the TKGM file host serves an HTML page instead of the PDF, so the text was read from the memurlar.net copy and not from TKGM.",
+          "verification": "secondary"
+        }
+      ],
+      "url": "https://www.tkgm.gov.tr/sites/default/files/2024-03/2024-2%20Genelge.pdf",
+      "archiveUrl": "https://web.archive.org/web/20250710004135/https://www.tkgm.gov.tr/sites/default/files/2024-03/2024-2%20Genelge.pdf",
+      "verification": "official_text_located",
+      "note": "official_text_located applies to the original text. The updated text was read from a third-party copy whose header matches the instrument numbers in the TKGM announcement, and is marked secondary until it is read from TKGM. The validity period is not set by the Citizenship Regulation; it is set here.",
+      "lastChecked": "2026-11-19"
+    },
+    {
       "id": "tkgm-genelge-2024-4",
       "kind": "circular",
       "titleTr": "Tapu ve Kadastro Genel Mudurlugu 2024/4 sayili Genelge",
       "titleEn": "General Directorate of Land Registry and Cadastre Circular No. 2024/4",
       "number": "2024/4",
+      "reference": "E-36189470-125.01.01-12973768",
       "dated": "2024-06-13",
       "resmiGazete": null,
       "publisher": "Tapu ve Kadastro Genel Mudurlugu (TKGM)",
-      "subject": "Procedure for the Tutar Tespit Belgesi (value confirmation document) that evidences the qualifying real estate amount for a citizenship file, and the appraisal report it rests on.",
+      "subject": "Procedure for the Tutar Tespit Belgesi (TTB, amount determination document) that confirms the qualifying real estate amount for a citizenship file, and the valuation report it rests on.",
+      "versionRead": {
+        "asAmendedBy": "Makam Oluru of 2024-12-09, no. 14718243",
+        "inForceFrom": "2024-12-09",
+        "provisions": [
+          "Valuation report not required on other transactions to which foreigners are party: \"yabancıların taraf olduğu vatandaşlık kazanımı içeren işlemler dışındaki diğer işlemlerde taşınmaz değerleme raporu aranılmayacak\".",
+          "Six-month maximum gap between the TTB and the citizenship application: \"TTB ile vatandaşlık kazanımı içeren işlem başvuru süresi arasındaki fark altı ayı geçmeyecektir. Altı ayı geçen TTB'lerde belgeye esas değerleme raporu yenilenecektir.\"",
+          "The declared sale price, or the total in a promise to sell, and the total of the transfers or payments must each reach USD 400,000 (\"ayrı ayrı\"), confirmed by the TTB.",
+          "Transactions by public bodies and their undertakings, and by real estate investment trusts (gayrimenkul yatırım ortaklıkları), need no TTB, though the General Directorate may ask for one.",
+          "Repealed Circulars 2019/1 (1795) of 2019-02-15 and 2019/5 (1799) of 2019-05-30, and the instructions of 2021-12-07 and 2024-03-05."
+        ],
+        "readFrom": "TKGM PDF https://www.tkgm.gov.tr/sites/default/files/2024-12/2024-4%20Sayili%20Genelge_Degisik-1.pdf, read through the web.archive.org copy because the TKGM file host serves an HTML page instead of the PDF"
+      },
       "amendedBy": [
         {
-          "titleEn": "Makam Oluru of 2026-09-28, no. 21914825",
-          "effect": "The appraisal report underlying the Tutar Tespit Belgesi may be issued by any appraisal company authorised by the Capital Markets Board, and the window between the Tutar Tespit Belgesi and the citizenship title deed application was extended from 6 months to 12 months.",
+          "titleEn": "Makam Oluru of 2024-12-09, no. 14718243",
+          "inForceFrom": "2024-12-09",
+          "effect": "Introduced the TTB, the six-month window between the TTB and the application, the end of the valuation report requirement on transactions not involving citizenship acquisition, and the repeal of Circulars 2019/1 and 2019/5. TKGM announced it on 2024-12-11.",
+          "verification": "official_text_located"
+        },
+        {
+          "titleEn": "Amendment announced by TKGM on 2026-09-29 (\"2024/4 Sayılı Genelge Değişikliği Hakkında Duyuru\")",
+          "effect": "Reported to extend the window between the TTB and the citizenship application from six months to twelve months. The TKGM announcement page was read and only links the amended text; the text itself could not be retrieved, so the twelve-month figure rests on secondary reporting.",
+          "announcementUrl": "https://www.tkgm.gov.tr/duyurular/20244-sayili-genelge-degisikligi-hakkinda-duyuru",
           "verification": "secondary"
         }
       ],
-      "url": null,
-      "verification": "secondary",
-      "note": "Circulars of the General Directorate are not published in the Official Gazette. The 2026-09-28 amendment is recorded here from secondary reporting and is flagged for confirmation against the circular text.",
-      "lastChecked": "2026-11-08"
+      "url": "https://www.tkgm.gov.tr/sites/default/files/2024-12/2024-4%20Sayili%20Genelge_Degisik-1.pdf",
+      "archiveUrl": "https://web.archive.org/web/20260717172133/https://www.tkgm.gov.tr/sites/default/files/2024-12/2024-4%20Sayili%20Genelge_Degisik-1.pdf",
+      "verification": "official_text_located",
+      "note": "Circulars of the General Directorate are not published in the Official Gazette. The version in force from 2024-12-09 was read in full from the archived TKGM PDF. The amendment announced on 2026-09-29 was not read. Earlier releases of this dataset attributed a 2026 amendment of this circular to a Makam Oluru no. 21914825; no instrument with that number was found and the attribution is withdrawn. The 2026-09-28 Makam Oluru that was read updates Circular 2024/2 (see tkgm-genelge-2024-2).",
+      "lastChecked": "2026-11-19"
     },
     {
       "id": "tkgm-genelge-2019-1",
@@ -277,12 +346,18 @@
       "titleTr": "Tapu ve Kadastro Genel Mudurlugu 2019/1 sayili Genelge",
       "titleEn": "General Directorate of Land Registry and Cadastre Circular No. 2019/1",
       "number": "2019/1",
+      "dated": "2019-02-15",
       "resmiGazete": null,
       "publisher": "Tapu ve Kadastro Genel Mudurlugu (TKGM)",
       "subject": "Requirement for an appraisal report by a company licensed by the Capital Markets Board where one party to a title deed transfer is a foreign national.",
+      "repealedBy": {
+        "id": "tkgm-genelge-2024-4",
+        "inForceFrom": "2024-12-09",
+        "note": "Circular 2024/4 as amended by the Makam Oluru of 2024-12-09 lists 2019/1 (1795) of 2019-02-15 among the circulars it repeals. Since then no valuation report is required on transactions to which foreigners are party unless they involve citizenship acquisition."
+      },
       "url": null,
       "verification": "secondary",
-      "lastChecked": "2026-11-08"
+      "lastChecked": "2026-11-19"
     },
     {
       "id": "law-6362",
@@ -493,14 +568,14 @@
       "articlesUsed": [
         {
           "article": "20(10)",
-          "subject": "The foreign currency is sold to the bank and by the bank to the Central Bank, and the qualifying amount is held in Turkish lira"
+          "subject": "Added Art. 20(10): the foreign currency is sold to a bank operating in Turkiye and by that bank to the Central Bank. The paragraph was rewritten by Decision No. 5554 of 13 May 2022 and, as amended, names sub-paragraphs (b), (ç), (d), (e) and (f)."
         }
       ],
-      "effect": "Added Art. 20(10) to the implementing Regulation, so a qualifying bank deposit is a Turkish lira deposit rather than a foreign currency one.",
+      "effect": "Added Art. 20(10) to the implementing Regulation, so a qualifying bank deposit is a Turkish lira deposit rather than a foreign currency one. The current wording of Art. 20(10) is the one given by Decision No. 5554 (see regulation-2010-139).",
       "url": null,
       "verification": "official_reference_located",
-      "lastChecked": "2026-11-11",
-      "note": "Which sub-paragraphs of Art. 20(2) this rule reaches, beyond the bank deposit, is an open question below."
+      "lastChecked": "2026-11-19",
+      "note": "The reach of Art. 20(10) beyond the bank deposit was an open question in earlier releases. It is closed: see closedQuestions."
     },
     {
       "id": "law-7394",
@@ -641,14 +716,16 @@
       "tkgm-genelge-2019-1",
       "tkgm-genelge-2024-4",
       "cbk-5072",
-      "law-7394"
+      "law-7394",
+      "tkgm-genelge-2024-2"
     ],
     "data/document-checklist.json": [
       "law-5901",
       "regulation-2010-139",
       "law-6458",
       "hcch-1961",
-      "tkgm-genelge-2024-4"
+      "tkgm-genelge-2024-4",
+      "tkgm-genelge-2024-2"
     ],
     "data/statistics.json": [
       "tuik-konut-satis",
@@ -665,7 +742,9 @@
       "bkk-2016-9601",
       "bkk-2017-10008",
       "cbk-106",
-      "cbk-5554"
+      "cbk-5554",
+      "tkgm-genelge-2024-2",
+      "tkgm-genelge-2024-4"
     ],
     "data/apostille-countries.json": [
       "hcch-1961"
@@ -683,16 +762,35 @@
   },
   "openQuestions": [
     "Decision numbers (esas and karar) for the Danistay rulings in the litigation series are not yet recorded.",
-    "The Tapu ve Kadastro Genel Mudurlugu circulars are not published in the Official Gazette, so 2019/1, 2021/6 and 2024/4 and its 2026-09-28 amendment rest on secondary reporting and need confirmation against the circular texts.",
+    "The Tapu ve Kadastro Genel Mudurlugu circulars are not published in the Official Gazette. Circular 2024/2 (original and as updated on 2026-09-28) and Circular 2024/4 as in force from 2024-12-09 have been read. Still unread: Circular 2021/6, and the text of the amendment to Circular 2024/4 announced on 2026-09-29, which is reported to extend the six-month window between the Tutar Tespit Belgesi and the citizenship application to twelve months. The updated text of 2024/2 was read from a third-party copy and should be re-read from TKGM when its file host serves the PDF.",
     "The legal instrument behind the USD 200,000 property threshold for residence permits announced on 2023-10-16 has not been identified.",
     "The Official Gazette issue number for the VAT General Application Communique amendment of 2017-05-05 is not yet recorded.",
-    "Sources disagree on the validity period of the appraisal report underlying the Tutar Tespit Belgesi. The 2026-09-28 amendment to circular 2024/4 is reported to set the window between the Tutar Tespit Belgesi and the citizenship application at 12 months, which may be the origin of the disagreement, but the circular text has not been read.",
-    "Which sub-paragraphs of Regulation Art. 20(2) the Art. 20(10) lira-conversion requirement reaches. Ra Legal's deposit guide states (b), (c-cedilla), (d) and (e); only the bank deposit is recorded as settled in investment-thresholds.json. Counsel to confirm.",
     "The series in data/investment-returns.json have no entries in this register. Borsa Istanbul index levels, TCMB deposit rates and the TCMB residential property price index each need a dated entry with a URL and a retrieval date before a figure from that file can be cited the way a legal figure can.",
     "The lira gram gold price series in data/investment-returns.json has no identified publication at all.",
     "The forum, the time limit and the availability of a stay of execution for a challenge to a decision annulling (Law No. 5901 art. 31) or withdrawing (art. 40) a grant of citizenship. Law No. 2577 is now in the register but the applicable provisions have not been read against these decisions, so the annulment page states the gap rather than an answer.",
     "Four instruments are relied on in prose without register entries, because their Resmi Gazete date and issue could not be confirmed against an official text: Law No. 2575 (Danistay Kanunu), Law No. 6735 (Uluslararasi Isgucu Kanunu, needed to say properly that a residence permit is not a work permit), Law No. 1512 (Noterlik Kanunu, which carries the sworn translation and notarial step), and Law No. 5237 (Turk Ceza Kanunu, referenced only to separate administrative measures from criminal liability).",
     "The HCCH competent-authority listing, which is a different table from the status table indexed as hcch-1961. Without it the legalisation page cannot name the authorities that issue an apostille in Turkiye.",
     "Law No. 6458 sits at official_reference_located rather than official_text_located. Re-reading arts. 31(1) and 31(2) in the consolidated text would close two open paragraphs on the residence permit page at once, including the duration of a grant on the investor ground."
+  ],
+  "closedQuestions": [
+    {
+      "question": "Sources disagree on the validity period of the appraisal report underlying the Tutar Tespit Belgesi. The 2026-09-28 amendment to circular 2024/4 is reported to set the window between the Tutar Tespit Belgesi and the citizenship application at 12 months, which may be the origin of the disagreement, but the circular text has not been read.",
+      "closed": "2026-11-19",
+      "answer": "The validity of the valuation report is set by TKGM Circular 2024/2, not by the Citizenship Regulation: 3 months from 4 March 2024 (\"kullanım süresi 3 aydır\"), and 12 months since the circular was updated by Makam Oluru of 28 September 2026, no. E-90759875-020-22003020 (\"kullanım süresi 12 aydır\"), resting on the Ministry approval of 18 September 2026, no. 21900458. The update also lets any SPK-licensed valuation firm in TADEBIS prepare the report, chosen by the applicant. The six-month window between the Tutar Tespit Belgesi and the application is a different period, set by Circular 2024/4 as in force from 9 December 2024 (\"altı ayı geçmeyecektir\"); its reported extension to twelve months in September 2026 has not been read and stays open above.",
+      "sources": [
+        "tkgm-genelge-2024-2",
+        "tkgm-genelge-2024-4"
+      ]
+    },
+    {
+      "question": "Which sub-paragraphs of Regulation Art. 20(2) the Art. 20(10) lira-conversion requirement reaches. Ra Legal's deposit guide states (b), (c-cedilla), (d) and (e); only the bank deposit is recorded as settled in investment-thresholds.json. Counsel to confirm.",
+      "closed": "2026-11-19",
+      "answer": "Regulation Art. 20(10), as amended by Presidential Decision No. 5554 of 13 May 2022, names sub-paragraphs (b), (ç), (d), (e) and (f): \"İkinci fıkranın (b), (ç), (d), (e) ve (f) bentlerinde belirtilen döviz tutarları işlem öncesinde Türkiye'de faaliyet gösteren bir bankaya ve bu bankaca da Merkez Bankasına satılır.\" It reaches real estate, the bank deposit, government debt instruments, investment fund shares and the private pension. It does not name fixed capital investment (a) or job creation (c). investment-thresholds.json records this per route.",
+      "sources": [
+        "regulation-2010-139",
+        "cbk-5554",
+        "cbk-5072"
+      ]
+    }
   ]
 }

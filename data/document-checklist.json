@@ -11,7 +11,7 @@
     "note": "Figures are dated and each names the instrument it comes from. General information about Turkish law, not legal advice."
   },
   "description": "Documents commonly required for a Turkish citizenship-by-investment application. Authorities may request more case by case.",
-  "asOf": "2026-11-11",
+  "asOf": "2026-11-19",
   "mainApplicant": [
     {
       "document": "Passport",
@@ -84,9 +84,11 @@
     {
       "document": "Non-applying parent consent",
       "legalisation": "apostille or consular legalisation",
-      "conditional": true
+      "conditional": true,
+      "note": "For a minor child whose other parent is not applying."
     }
   ],
+  "childUnder18Scope": "The key keeps its published name, but the group covers every child within Law No. 5901 Art. 12(1)(b): the minor or dependent foreign children of the investor and of the spouse (\"kendisinin ve eşinin ergin olmayan veya bağımlı yabancı çocuğu\"). A child aged 18 or over is within the text if dependent. The statute does not say how dependency is shown; it is assessed file by file, and any further document is requested case by case. Parental consent applies to a minor child.",
   "apostilleStatus": {
     "note": "Hague Apostille Convention membership decides whether a public document takes an apostille or needs consular legalisation. The full table is a separate file so it can be updated on its own as states accede.",
     "file": "data/apostille-countries.json",

@@ -84,9 +84,10 @@
     "spouse": true,
     "childrenUnder18": true,
     "dependentChildren": true,
-    "childrenOver18": false,
+    "childrenOver18": null,
+    "childrenOver18Rule": "Not a yes-or-no field. Article 1 names the minor or dependent foreign children (\"kendisinin ve eşinin ergin olmayan veya bağımlı yabancı çocuğu\"), so a child aged 18 or over is within the text if dependent. The Decision does not define dependency. Earlier releases gave false here, which the wording does not support.",
     "parents": false,
-    "note": "Article 1 extends the permit to the investor's foreign spouse and to the minor or dependent foreign children of the investor and of that same spouse. An adult child who is not dependent is not named."
+    "note": "Article 1 extends the permit to the investor's foreign spouse and to the minor or dependent foreign children of the investor and of the spouse, in the same words as Law No. 6458 Art. 31(1)(j) and Law No. 5901 Art. 12(1)(b). An adult child who is not dependent is not named."
   },
   "citizenship": {
     "countsTowardArticle12": false,
