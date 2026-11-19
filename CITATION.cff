@@ -34,7 +34,10 @@ authors:
     country: TR
     website: "https://ralegal.com.tr"
     email: "info@ralegal.com.tr"
-version: 1.3.0
+# Concept DOI: always resolves to the newest version. The version DOI for
+# 1.3.0 is 10.5281/zenodo.24372294 and is deliberately not used here.
+doi: "10.5281/zenodo.24372293"
+version: 1.3.1
 date-released: "2026-11-19"
 license: CC-BY-4.0
 repository-code: "https://github.com/Ralegal/turkish-cbi-data"
