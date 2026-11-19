@@ -1,0 +1,105 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "_attribution": {
+    "dataset": "Turkish Citizenship by Investment: Open Data",
+    "maintainer": "Ra Legal, a law firm in Istanbul",
+    "attorney": "Av. Ruzgar Sevimli, Istanbul Bar Association, registration no. 69519",
+    "canonicalPage": "https://ralegal.com.tr/data/turkish-cbi-open-data",
+    "repository": "https://github.com/Ralegal/turkish-cbi-data",
+    "licence": "CC BY 4.0. Reuse is free and attribution is required.",
+    "citeAs": "Sevimli, R. and Ra Legal (2026). Turkish Citizenship by Investment: Open Data.",
+    "contact": "info@ralegal.com.tr",
+    "note": "Figures are dated and each names the instrument it comes from. General information about Turkish law, not legal advice."
+  },
+  "description": "Residence permits issued to foreign investors under Presidential Decision No. 11994, which is a residence track and not a route to citizenship. It is carried in this dataset because it is persistently confused with the citizenship-by-investment programme in data/investment-thresholds.json, and because Article 4 of the Decision states the opposite in terms.",
+  "asOf": "2026-11-19",
+  "currency": "USD",
+  "instrument": {
+    "id": "cbk-11994",
+    "titleTr": "Yabanci Yatirimcilara Duzenlenecek Ikamet Izinlerine Dair Karar",
+    "titleTrNative": "Yabancı Yatırımcılara Düzenlenecek İkamet İzinlerine Dair Karar",
+    "titleEn": "Decision on Residence Permits to be Issued to Foreign Investors",
+    "number": "11994",
+    "type": "Cumhurbaskani Karari",
+    "decided": "2026-11-17",
+    "resmiGazete": { "date": "2026-11-18", "issue": "33434" },
+    "inForceFrom": "2026-11-18",
+    "inForceRule": "Article 5: in force on the date of publication, with no deferral period.",
+    "statutoryBasis": "Law No. 6458 Article 31. Article 1 of the Decision issues the permits under Article 31(1)(j) and sets their duration under Article 31(5).",
+    "executedBy": "Minister of the Interior (Article 6)"
+  },
+  "tiers": [
+    {
+      "minimumInvestment": 150000,
+      "permitYears": 3,
+      "holdingPeriodYears": 1.5,
+      "holdingRule": "Half the duration of the residence permit, per Article 2."
+    },
+    {
+      "minimumInvestment": 200000,
+      "permitYears": 5,
+      "holdingPeriodYears": 2.5,
+      "holdingRule": "Half the duration of the residence permit, per Article 2."
+    }
+  ],
+  "amountRule": "The listed amounts are in US dollars or the equivalent in foreign currency. The Decision sets a floor and does not state an upper limit, a currency-conversion date or what happens if exchange-rate movement takes a holding below the threshold after it is made.",
+  "qualifyingInvestments": [
+    {
+      "route": "bank_deposit",
+      "label": "Deposit with a bank operating in Turkiye",
+      "subParagraph": "2(1)(a)",
+      "condition": "Deposited with a bank operating in Turkiye and held for half the permit duration.",
+      "verifiedBy": "Bankacilik Duzenleme ve Denetleme Kurumu (BDDK)"
+    },
+    {
+      "route": "government_debt_instruments",
+      "label": "Government debt instruments",
+      "subParagraph": "2(1)(b)",
+      "condition": "Purchased and held for half the permit duration.",
+      "verifiedBy": "Hazine ve Maliye Bakanligi (Ministry of Treasury and Finance)"
+    },
+    {
+      "route": "investment_fund_share",
+      "label": "Real estate investment fund or venture capital investment fund participation share",
+      "subParagraph": "2(1)(c)",
+      "condition": "Participation share purchased and held for half the permit duration.",
+      "verifiedBy": "Sermaye Piyasasi Kurulu (Capital Markets Board)"
+    },
+    {
+      "route": "private_pension",
+      "label": "Contribution to the individual pension system",
+      "subParagraph": "2(1)(c-cedilla)",
+      "condition": "Paid into the individual pension system within a pension plan whose scope is determined by the SEDDK, remaining in the system for half the permit duration.",
+      "verifiedBy": "Sigortacilik ve Ozel Emeklilik Duzenleme ve Denetleme Kurumu (SEDDK)"
+    }
+  ],
+  "notQualifying": [
+    {
+      "route": "real_estate_purchase",
+      "note": "Buying property is not one of the four investments listed in Article 2. This is an observation about what the list contains, not a prohibition stated in the Decision. Property owners have a separate residence permit route under Law No. 6458, and property remains a citizenship route at USD 400,000 under Article 20 of the Citizenship Regulation."
+    }
+  ],
+  "applicantCondition": "Article 1 covers persons who do not work in Turkiye and who will make an investment within the listed amounts. A foreigner working in Turkiye is outside the scope of this Decision as drafted.",
+  "familyInclusion": {
+    "spouse": true,
+    "childrenUnder18": true,
+    "dependentChildren": true,
+    "childrenOver18": false,
+    "parents": false,
+    "note": "Article 1 extends the permit to the investor's foreign spouse and to the minor or dependent foreign children of the investor and of that same spouse. An adult child who is not dependent is not named."
+  },
+  "citizenship": {
+    "countsTowardArticle12": false,
+    "basis": "Article 4: residence permits issued on the basis of this Decision are not assessed within the scope of Article 12 of Law No. 5901 of 29 May 2009.",
+    "plainReading": "This is not a cheaper citizenship-by-investment route. Article 12 is exceptional acquisition of citizenship, which is the article the USD 400,000 property programme runs on. The Decision excludes these permits from it in terms.",
+    "openQuestion": "The Decision excludes Article 12 and says nothing about Article 11, which is ordinary naturalisation after five years of lawful residence. Whether time held on one of these permits counts as qualifying residence for Article 11 is not settled by this text and no implementing rule has been published. Do not assume either answer."
+  },
+  "notYetPublished": [
+    "Procedures and principles for services and other transactions under this Decision are left to the Ministry of the Interior by Article 3. None had been published as of 2026-11-19.",
+    "Application fees, the permit card fee and any health insurance condition are not in the Decision.",
+    "The Decision does not state whether an investment made before 18 November 2026 can be counted.",
+    "No renewal or extension rule is stated.",
+    "Whether a holding that falls below the threshold on exchange-rate movement remains qualifying is not addressed."
+  ],
+  "sources": ["cbk-11994", "law-6458", "law-5901", "resmi-gazete"]
+}

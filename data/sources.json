@@ -13,7 +13,7 @@
   },
   "name": "Turkish citizenship by investment: primary source index",
   "description": "Machine-readable index of the primary legal instruments, official statistical publications and official statements behind the datasets in this repository. Every figure published here is traceable to an entry in this file.",
-  "asOf": "2026-11-12",
+  "asOf": "2026-11-19",
   "license": "CC BY 4.0",
   "repository": "https://github.com/Ralegal/turkish-cbi-data",
   "maintainer": {
@@ -574,6 +574,50 @@
       "url": "https://www.seddk.gov.tr",
       "verification": "official_reference_located",
       "lastChecked": "2026-11-12"
+    },
+    {
+      "id": "cbk-11994",
+      "kind": "instrument",
+      "titleTr": "Yabanci Yatirimcilara Duzenlenecek Ikamet Izinlerine Dair Karar",
+      "titleTrNative": "Yabancı Yatırımcılara Düzenlenecek İkamet İzinlerine Dair Karar",
+      "titleEn": "Decision on Residence Permits to be Issued to Foreign Investors",
+      "number": "11994",
+      "instrument": "Cumhurbaskani Karari",
+      "decided": "2026-11-17",
+      "resmiGazete": {
+        "date": "2026-11-18",
+        "issue": "33434"
+      },
+      "inForceFrom": "2026-11-18",
+      "publisher": "Cumhurbaskanligi",
+      "statutoryBasis": "law-6458 art. 31",
+      "articlesUsed": [
+        {
+          "article": "1",
+          "subject": "Scope: foreigners not working in Turkiye who invest the listed amounts, their foreign spouse, and the minor or dependent foreign children of the investor and that spouse"
+        },
+        {
+          "article": "2",
+          "subject": "The four qualifying investments and the authority that verifies each, with a holding period of half the permit duration"
+        },
+        {
+          "article": "3",
+          "subject": "Procedures and principles left to the Ministry of the Interior"
+        },
+        {
+          "article": "4",
+          "subject": "Permits issued under this Decision are not assessed within the scope of Article 12 of Law No. 5901"
+        },
+        {
+          "article": "5",
+          "subject": "In force on the date of publication"
+        }
+      ],
+      "effect": "Created a residence permit for foreign investors: at least USD 150,000 for three years, at least USD 200,000 for five years, against a bank deposit, government debt instruments, a real estate or venture capital investment fund participation share, or an individual pension contribution. Article 4 excludes these permits from Article 12 of Law No. 5901, so the Decision is not a citizenship route.",
+      "url": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261118-3.pdf",
+      "originalTextUrl": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261118.htm",
+      "verification": "official_text_located",
+      "lastChecked": "2026-11-19"
     }
   ],
   "datasetSourceMap": {
@@ -629,7 +673,13 @@
     "data/processing-times.json": [
       "ankara-valiligi-service-standards"
     ],
-    "data/investment-returns.json": []
+    "data/investment-returns.json": [],
+    "data/investor-residence-permit.json": [
+      "cbk-11994",
+      "law-6458",
+      "law-5901",
+      "resmi-gazete"
+    ]
   },
   "openQuestions": [
     "Decision numbers (esas and karar) for the Danistay rulings in the litigation series are not yet recorded.",
