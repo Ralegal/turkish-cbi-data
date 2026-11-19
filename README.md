@@ -96,6 +96,7 @@ excluded.
 | [`data/apostille-countries.json`](data/apostille-countries.json) | Hague Apostille Convention status: all 130 Contracting Parties with the date the Convention entered into force for each, by ISO 3166-1 alpha-2 code, plus the non-parties our guides name. Decides whether a civil status document takes an apostille or needs consular legalisation |
 | [`data/processing-times.json`](data/processing-times.json) | Observed durations per stage of a file, and the end-to-end range. Marked `"basis": "observed"`, because no Turkish authority publishes an end-to-end processing time and no statute sets a deadline |
 | [`data/investment-returns.json`](data/investment-returns.json) | Year-end index levels and rates (BIST 100, BIST REIT, gold in lira, lira and dollar deposit returns, housing) with USD/TRY, for expressing each route's outcome in dollars. Gross of taxes and fees, and not investment advice |
+| [`data/investor-residence-permit.json`](data/investor-residence-permit.json) | The investor **residence permit** created by Presidential Decision No. 11994 (RG 18 November 2026, issue 33434): USD 150,000 for three years, USD 200,000 for five, the four qualifying investments and who verifies each, and the family members covered. It is held in its own file and not in the thresholds table because Article 4 of the Decision excludes these permits from Article 12 of Law No. 5901, so it is **not** a citizenship route and must not be read as a cheaper one |
 
 ## Headline statistics
 
