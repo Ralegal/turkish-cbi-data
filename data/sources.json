@@ -329,7 +329,7 @@
         },
         {
           "titleEn": "Amendment announced by TKGM on 2026-09-29 (\"2024/4 Sayılı Genelge Değişikliği Hakkında Duyuru\")",
-          "effect": "Reported to extend the window between the TTB and the citizenship application from six months to twelve months. The TKGM announcement page was read and only links the amended text; the text itself could not be retrieved, so the twelve-month figure rests on secondary reporting.",
+          "effect": "Reported to extend the window between the TTB and the citizenship application from six months to twelve months. The TKGM announcement page was read and only links the amended text; the text itself could not be retrieved, so the twelve-month figure does not rest on the instrument's text. Ra Legal, which publishes this dataset, confirms from its own filings that the twelve-month window is the one applied in practice.",
           "announcementUrl": "https://www.tkgm.gov.tr/duyurular/20244-sayili-genelge-degisikligi-hakkinda-duyuru",
           "verification": "secondary"
         }
@@ -762,7 +762,7 @@
   },
   "openQuestions": [
     "Decision numbers (esas and karar) for the Danistay rulings in the litigation series are not yet recorded.",
-    "The Tapu ve Kadastro Genel Mudurlugu circulars are not published in the Official Gazette. Circular 2024/2 (original and as updated on 2026-09-28) and Circular 2024/4 as in force from 2024-12-09 have been read. Still unread: Circular 2021/6, and the text of the amendment to Circular 2024/4 announced on 2026-09-29, which is reported to extend the six-month window between the Tutar Tespit Belgesi and the citizenship application to twelve months. The updated text of 2024/2 was read from a third-party copy and should be re-read from TKGM when its file host serves the PDF.",
+    "The Tapu ve Kadastro Genel Mudurlugu circulars are not published in the Official Gazette. Circular 2024/2 (original and as updated on 2026-09-28) and Circular 2024/4 as in force from 2024-12-09 have been read. Still unread: Circular 2021/6, and the text of the amendment to Circular 2024/4 announced on 2026-09-29, which extends the six-month window between the Tutar Tespit Belgesi and the citizenship application to twelve months (confirmed in practice by Ra Legal; the text is still to be read). The updated text of 2024/2 was read from a third-party copy and should be re-read from TKGM when its file host serves the PDF.",
     "The legal instrument behind the USD 200,000 property threshold for residence permits announced on 2023-10-16 has not been identified.",
     "The Official Gazette issue number for the VAT General Application Communique amendment of 2017-05-05 is not yet recorded.",
     "The series in data/investment-returns.json have no entries in this register. Borsa Istanbul index levels, TCMB deposit rates and the TCMB residential property price index each need a dated entry with a URL and a retrieval date before a figure from that file can be cited the way a legal figure can.",
@@ -776,7 +776,7 @@
     {
       "question": "Sources disagree on the validity period of the appraisal report underlying the Tutar Tespit Belgesi. The 2026-09-28 amendment to circular 2024/4 is reported to set the window between the Tutar Tespit Belgesi and the citizenship application at 12 months, which may be the origin of the disagreement, but the circular text has not been read.",
       "closed": "2026-11-19",
-      "answer": "The validity of the valuation report is set by TKGM Circular 2024/2, not by the Citizenship Regulation: 3 months from 4 March 2024 (\"kullanım süresi 3 aydır\"), and 12 months since the circular was updated by Makam Oluru of 28 September 2026, no. E-90759875-020-22003020 (\"kullanım süresi 12 aydır\"), resting on the Ministry approval of 18 September 2026, no. 21900458. The update also lets any SPK-licensed valuation firm in TADEBIS prepare the report, chosen by the applicant. The six-month window between the Tutar Tespit Belgesi and the application is a different period, set by Circular 2024/4 as in force from 9 December 2024 (\"altı ayı geçmeyecektir\"); its reported extension to twelve months in September 2026 has not been read and stays open above.",
+      "answer": "The validity of the valuation report is set by TKGM Circular 2024/2, not by the Citizenship Regulation: 3 months from 4 March 2024 (\"kullanım süresi 3 aydır\"), and 12 months since the circular was updated by Makam Oluru of 28 September 2026, no. E-90759875-020-22003020 (\"kullanım süresi 12 aydır\"), resting on the Ministry approval of 18 September 2026, no. 21900458. The update also lets any SPK-licensed valuation firm in TADEBIS prepare the report, chosen by the applicant. The six-month window between the Tutar Tespit Belgesi and the application is a different period, set by Circular 2024/4 as in force from 9 December 2024 (\"altı ayı geçmeyecektir\"); its extension to twelve months in September 2026 is confirmed in practice by Ra Legal, which publishes this dataset; the amending text has not been read and stays open above.",
       "sources": [
         "tkgm-genelge-2024-2",
         "tkgm-genelge-2024-4"
