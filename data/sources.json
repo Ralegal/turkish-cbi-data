@@ -13,7 +13,7 @@
   },
   "name": "Turkish citizenship by investment: primary source index",
   "description": "Machine-readable index of the primary legal instruments, official statistical publications and official statements behind the datasets in this repository. Every figure published here is traceable to an entry in this file.",
-  "asOf": "2026-11-19",
+  "asOf": "2026-11-20",
   "license": "CC BY 4.0",
   "repository": "https://github.com/Ralegal/turkish-cbi-data",
   "maintainer": {
@@ -247,13 +247,13 @@
       "titleEn": "Amendment to the VAT General Application Communique, adding section II/B-12 on the exemption for residence and workplace deliveries",
       "resmiGazete": {
         "date": "2017-05-05",
-        "issue": null
+        "issue": "30057"
       },
       "publisher": "Hazine ve Maliye Bakanligi, Gelir Idaresi Baskanligi",
       "subject": "Conditions for applying the art. 13(i) VAT exemption, including the requirement that the title deed registration be completed and that the foreign currency be brought in.",
       "url": "https://www.resmigazete.gov.tr/eskiler/2017/05/20170505-11.htm",
       "verification": "official_text_located",
-      "lastChecked": "2026-11-08"
+      "lastChecked": "2026-11-20"
     },
     {
       "id": "tkgm-genelge-2024-2",
@@ -287,7 +287,7 @@
           "appraiser": "Reports for the citizenship determination may be prepared by any valuation firm licensed by the Capital Markets Board (SPK) that is an active TDUB member included in TADEBIS, chosen by the applicant or assigned by algorithm: \"Sermaye Piyasası Kurulu lisanslı herhangi bir Değerleme Kuruluşu tarafından düzenlenebileceğine karar verilmiştir\"; \"tercihli veya otomatik algoritma üzerinden istenilen herhangi bir değerleme kuruluşu seçilerek başvuru yapılabilecektir\".",
           "announced": "2026-09-29",
           "announcementUrl": "https://www.tkgm.gov.tr/duyurular/20242-sayili-genelge-guncellemesi-hakkinda-duyuru",
-          "readFrom": "Copy of the updated circular at https://www.memurlar.net/common/news/documents/1179497/2024_2_guncel_genelge.pdf. The TKGM announcement page was read and links the same file name (2024_2_Güncel_Genelge.pdf), but the TKGM file host serves an HTML page instead of the PDF, so the text was read from the memurlar.net copy and not from TKGM.",
+          "readFrom": "Copy of the updated circular at https://www.memurlar.net/common/news/documents/1179497/2024_2_guncel_genelge.pdf. The TKGM announcement page was read and links the same file name (2024_2_Güncel_Genelge.pdf), but the TKGM file host serves an HTML page instead of the PDF, so the text was read from the memurlar.net copy and not from TKGM. Re-read on 2026-11-20 from a second copy at https://www.tapumevzuati.com.tr/mevzuat.php?indir=MEVZUAT+BANKASI%2FGENELGELER%2FG%C3%9CNCEL+GENELGELER%2F2024-02+say%C4%B1l%C4%B1+Genelge+-Yabanc%C4%B1lar%C4%B1n+Ta%C5%9F%C4%B1nmaz+Edinimlerinde+ve+Baz%C4%B1+%C4%B0%C5%9Flemlerde+Kullan%C4%B1lacak+De%C4%9Ferleme+Raporlar%C4%B1na+%C4%B0li%C5%9Fkin+Usul+ve+Esaslar.pdf (tapumevzuati.com.tr), which carries the same header, ilgi (b) and 12-month clause. The TKGM file host (cms-api.tkgm.gov.tr) timed out again on 2026-11-20 and a Wayback Machine save request returned HTTP 523, so the text has still not been read from TKGM itself.",
           "verification": "secondary"
         }
       ],
@@ -295,7 +295,7 @@
       "archiveUrl": "https://web.archive.org/web/20250710004135/https://www.tkgm.gov.tr/sites/default/files/2024-03/2024-2%20Genelge.pdf",
       "verification": "official_text_located",
       "note": "official_text_located applies to the original text. The updated text was read from a third-party copy whose header matches the instrument numbers in the TKGM announcement, and is marked secondary until it is read from TKGM. The validity period is not set by the Citizenship Regulation; it is set here.",
-      "lastChecked": "2026-11-19"
+      "lastChecked": "2026-11-20"
     },
     {
       "id": "tkgm-genelge-2024-4",
@@ -328,17 +328,30 @@
           "verification": "official_text_located"
         },
         {
-          "titleEn": "Amendment announced by TKGM on 2026-09-29 (\"2024/4 Sayılı Genelge Değişikliği Hakkında Duyuru\")",
-          "effect": "Reported to extend the window between the TTB and the citizenship application from six months to twelve months. The TKGM announcement page was read and only links the amended text; the text itself could not be retrieved, so the twelve-month figure does not rest on the instrument's text. Ra Legal, which publishes this dataset, confirms from its own filings that the twelve-month window is the one applied in practice.",
+          "titleEn": "Makam Oluru of 2026-09-28, no. 21914825, announced by TKGM on 2026-09-29 (\"2024/4 Sayılı Genelge Değişikliği Hakkında Duyuru\")",
+          "effect": "Extends the window between the TTB and the citizenship application from six months to twelve, lets the valuation report behind the TTB be prepared by any SPK-authorised valuation firm, rewrites the paragraph on real estate investment trusts, and repeals the instruction of 2026-01-06 no. E-66840836-125.01.01-18933034. The text names no separate in-force date for these changes; its closing clause still reads \"İşbu Genelge değişiklikleri ve eki Kılavuz ile birlikte 09/12/2024 tarihinde yürürlüğe girer\", which dates the December 2024 changes.",
           "announcementUrl": "https://www.tkgm.gov.tr/duyurular/20244-sayili-genelge-degisikligi-hakkinda-duyuru",
-          "verification": "secondary"
+          "verification": "secondary",
+          "instrument": "28/09/2026 tarihli ve 21914825 sayılı Makam Oluru",
+          "restsOn": "Ministry approval (Bakanlık Makamı Oluru) of 2026-09-18, no. 21900458",
+          "quotes": [
+            "TTB ile vatandaşlık kazanımı içeren işlem başvuru süresi arasındaki fark oniki ayı geçmeyecektir. Oniki ayı geçen TTB'lerde belgeye esas değerleme raporu yenilenecektir. (İlgi (ı) Makam Oluru ile değişik ifade)",
+            "TTB, ilgi (ğ) sayılı Bakanlık Makam Oluru doğrultusunda Sermaye Piyasa Kurulu tarafından yetkilendirilmiş herhangi bir Değerleme Kuruluşu tarafından düzenlenen (İlgi (ı) Makam Oluru ile değişik ifade) taşınmaz değerleme raporundan elde edilen ... dokümandır",
+            "Ancak gayrimenkul yatırım ortaklıklarının yabancılara vatandaşlık kazanımı amacı ile yaptıkları taşınmaz satışı veya satış vaadi sözleşmesi işlemlerinde ... KAP'ta yayınlanan ve konu bağımsız bölümün değerini içeren değerleme raporlarını ibraz etmeleri veya WEBTAPU/TADEBİS üzerinden TTB'ye esas yeni bir değerleme raporu talebinde bulunmaları gerekmektedir. (İlgi (ı) Makam Oluru ile değişik ifade.)"
+          ],
+          "readFrom": "Consolidated text \"2024-04 Sayili Genelge_Türk Vatandaşlığı Kanununun Uygulanmasına İlişkin Yönetmelik Hk.\" at https://www.tapumevzuati.com.tr/mevzuat.php?indir=MEVZUAT+BANKASI%2FGENELGELER%2FG%C3%9CNCEL+GENELGELER%2F2024-04+Sayili+Genelge_T%C3%BCrk+Vatanda%C5%9Fl%C4%B1%C4%9F%C4%B1+Kanununun+Uygulanmas%C4%B1n%C4%B1a+%C4%B0li%C5%9Fkin+Y%C3%B6netmelik+Hk..pdf (tapumevzuati.com.tr, a private mirror of TKGM circulars; PDF modified 2026-09-28), read on 2026-11-20. The TKGM announcement page links the file \"2024-4 Sayili Genelge_Duzenlenen\" at https://cms-api.tkgm.gov.tr/media/101815/view, which timed out from the server used, as did a Wayback Machine save request; no Wayback capture exists. The header matches the circular (E-36189470-125.01.01-12973768, 13.06.2024) and its ilgi list names the amending instruments."
         }
       ],
       "url": "https://www.tkgm.gov.tr/sites/default/files/2024-12/2024-4%20Sayili%20Genelge_Degisik-1.pdf",
       "archiveUrl": "https://web.archive.org/web/20260717172133/https://www.tkgm.gov.tr/sites/default/files/2024-12/2024-4%20Sayili%20Genelge_Degisik-1.pdf",
       "verification": "official_text_located",
-      "note": "Circulars of the General Directorate are not published in the Official Gazette. The version in force from 2024-12-09 was read in full from the archived TKGM PDF. The amendment announced on 2026-09-29 was not read. Earlier releases of this dataset attributed a 2026 amendment of this circular to a Makam Oluru no. 21914825; no instrument with that number was found and the attribution is withdrawn. The 2026-09-28 Makam Oluru that was read updates Circular 2024/2 (see tkgm-genelge-2024-2).",
-      "lastChecked": "2026-11-19"
+      "note": "Circulars of the General Directorate are not published in the Official Gazette. The version in force from 2024-12-09 was read in full from the archived TKGM PDF. The amendment by Makam Oluru no. 21914825 of 2026-09-28, announced on 2026-09-29, was read on 2026-11-20 in the consolidated text reproduced by tapumevzuati.com.tr, because the TKGM file host could not be reached; it is marked secondary until read from TKGM. Earlier releases attributed a 2026 amendment of this circular to a Makam Oluru no. 21914825 and release 1.4.0 withdrew that attribution because no instrument with that number had been found. The consolidated text lists it as ilgi (ı), \"28/09/2026 tarihli ve 21914825 sayılı Makam Oluru\", so the attribution is restored: no. 21914825 amends Circular 2024/4, and no. E-90759875-020-22003020 of the same date updates Circular 2024/2.",
+      "lastChecked": "2026-11-20",
+      "provisions_current": [
+        "Twelve-month maximum gap between the TTB and the citizenship application since Makam Oluru no. 21914825 of 2026-09-28: \"TTB ile vatandaşlık kazanımı içeren işlem başvuru süresi arasındaki fark oniki ayı geçmeyecektir.\"",
+        "The TTB rests on a report by any SPK-authorised valuation firm, following the Ministry approval of 2026-09-18 no. 21900458.",
+        "Transactions by public bodies and by real estate investment trusts still need no TTB (\"TTB ile teyit edilmesine gerek bulunmamaktadır\"), but a trust selling to a foreigner for citizenship must produce a KAP-published report covering the unit or request a new report through WEBTAPU/TADEBİS; the review of the property investment determination certificate is then referred to the Foreign Affairs Department."
+      ]
     },
     {
       "id": "tkgm-genelge-2019-1",
@@ -355,9 +368,40 @@
         "inForceFrom": "2024-12-09",
         "note": "Circular 2024/4 as amended by the Makam Oluru of 2024-12-09 lists 2019/1 (1795) of 2019-02-15 among the circulars it repeals. Since then no valuation report is required on transactions to which foreigners are party unless they involve citizenship acquisition."
       },
-      "url": null,
-      "verification": "secondary",
-      "lastChecked": "2026-11-19"
+      "url": "https://www.tkgm.gov.tr/sites/default/files/2021-11/2019-1%20Genelge.pdf",
+      "verification": "official_text_located",
+      "lastChecked": "2026-11-20",
+      "archiveUrl": "https://web.archive.org/web/20220126164947/https://www.tkgm.gov.tr/sites/default/files/2021-11/2019-1%20Genelge.pdf",
+      "reference": "36189470-125.01.01-756079",
+      "versionRead": {
+        "asAmendedBy": "Makam Oluru of 2021-11-12, no. E-69083781-010.06.02-3004827",
+        "quote": "taşınmaz değerleme raporları, yabancı gerçek kişilerin sadece alıcı olduğu ve ekli listede belirtilen işlemlerde aranacak olup, yabancı gerçek kişilerin satıcı taraf olduğu işlemlerde taşınmaz değerleme raporu istenmeyecektir.",
+        "validityQuote": "Edinim başvurusu sırasında alınan değerleme raporları, düzenlendiği tarihten itibaren üç ay süre ile geçerlidir.",
+        "readFrom": "TKGM PDF read through the web.archive.org copy on 2026-11-20"
+      }
+    },
+    {
+      "id": "tkgm-genelge-2021-6",
+      "kind": "circular",
+      "titleTr": "Tapu ve Kadastro Genel Mudurlugu 2021/6 (1911) sayili Genelge",
+      "titleTrNative": "Tadebis-Web Tapu Sistemi Üzerinden Yabancıların Taraf Olduğu İşlemlerde Düzenlenecek Değerleme Raporlarına İlişkin Usul ve Esaslar (Genelge 2021/6 (1911))",
+      "titleEn": "General Directorate of Land Registry and Cadastre Circular No. 2021/6 (1911), procedure for valuation reports in transactions involving foreigners through TADEBIS and Web Tapu",
+      "number": "2021/6",
+      "reference": "E-76015859-010.06.02-2420918",
+      "dated": "2021-09-15",
+      "inForceFrom": "2021-09-20",
+      "resmiGazete": null,
+      "publisher": "Tapu ve Kadastro Genel Mudurlugu (TKGM), Taşınmaz Değerleme Dairesi Başkanlığı",
+      "subject": "Moved valuation report requests for transactions involving foreigners into TADEBIS and Web Tapu, with algorithmic assignment of the valuation firm. Repealed: Circular 2024/2 as updated on 2026-09-28 refers to it as \"mülga 2020/5, 2021/6, 2023/6 genelgeleri\".",
+      "quotes": [
+        "Bu genelge 20.09.2021 tarihinde yürürlüğe girer.",
+        "İlgilisi tarafından değerleme raporuna ilişkin hizmet bedeli ödendikten sonra değerleme talebi sistem tarafından aynı gün içinde iş dağıtım algoritması ile yetkili değerleme kuruluşuna atanır."
+      ],
+      "url": "https://tkgm.gov.tr/sites/default/files/2021-09/2021-6%20nolu%20genelge.pdf",
+      "archiveUrl": "https://web.archive.org/web/20211204010151/https://tkgm.gov.tr/sites/default/files/2021-09/2021-6%20nolu%20genelge.pdf",
+      "verification": "official_text_located",
+      "note": "Read in full on 2026-11-20 from the archived TKGM PDF. Historical only: it is no longer in force.",
+      "lastChecked": "2026-11-20"
     },
     {
       "id": "law-6362",
@@ -393,8 +437,36 @@
       "publisher": "Turkiye Buyuk Millet Meclisi",
       "subject": "Residence permits, including the short-term residence permit issued to owners of immovable property and the health insurance condition. Relevant to the residence permit stage in data/document-checklist.json.",
       "url": "https://www.mevzuat.gov.tr/mevzuatmetin/1.5.6458.pdf",
-      "verification": "official_reference_located",
-      "lastChecked": "2026-11-08"
+      "verification": "official_text_located",
+      "lastChecked": "2026-11-20",
+      "articlesUsed": [
+        {
+          "article": "28(2)",
+          "quote": "Kesintisiz ikamet izin sürelerinin hesaplanmasında, öğrenci ikamet izinlerinin yarısı, diğer ikamet izinlerinin ise tamamı sayılır."
+        },
+        {
+          "article": "31(1)(b)",
+          "quote": "Türkiye'de taşınmaz malı bulunanlar"
+        },
+        {
+          "article": "31(1)(j)",
+          "quote": "Türkiye'de çalışmayan ancak Cumhurbaşkanınca belirlenecek kapsam ve tutarda yatırım yapacaklar ile bunların yabancı eşi, kendisinin ve eşinin ergin olmayan veya bağımlı yabancı çocuğu"
+        },
+        {
+          "article": "31(2)",
+          "quote": "Kısa dönem ikamet izni, birinci fıkranın (j) ve (k) bentleri hariç olmak üzere, her defasında en fazla ikişer yıllık sürelerle verilebilir."
+        },
+        {
+          "article": "31(5)",
+          "quote": "Birinci fıkranın (j) ve (k) bentleri kapsamında verilen ikamet izinleri en fazla beşer yıllık sürelerle verilebilir."
+        },
+        {
+          "article": "31(6)",
+          "quote": "(Ek:21/11/2024-7533/35 md.) Kısa dönem ikamet izni verilmesine esas olacak taşınmazın niteliği ve değeri Bakanlıkça belirlenir.",
+          "addedBy": "Law No. 7533, accepted 2024-11-21, Resmi Gazete 2024-11-30 No. 32738, art. 35 (https://www.resmigazete.gov.tr/eskiler/2024/11/20241130-1.htm)"
+        }
+      ],
+      "note": "Consolidated text read on 2026-11-20. Art. 31(6) gives the Ministry of Interior power to set the type and value of property for the property-owner permit; no published Ministry determination under it has been located (see openQuestions)."
     },
     {
       "id": "law-6305",
@@ -423,7 +495,12 @@
       "subject": "Whether an apostille or consular legalisation applies to a civil status document, used in the apostilleStatus block of data/document-checklist.json. Entry-into-force dates per contracting party are read from the HCCH status table.",
       "url": "https://www.hcch.net/en/instruments/conventions/status-table/?cid=41",
       "verification": "official_text_located",
-      "lastChecked": "2026-11-08"
+      "lastChecked": "2026-11-20",
+      "competentAuthoritiesTurkiye": {
+        "url": "https://www.hcch.net/en/states/authorities/details3/?aid=350",
+        "quote": "Administrative documents: a. in provinces: Governor, Head Official of the District, Chief Secretary; b. in towns: Head Official of the District. Judicial documents: Presidencies of the Judicial Commissions where the high criminal courts exist",
+        "note": "HCCH page body says it was last updated on 7 June 2012. Read on 2026-11-20."
+      }
     },
     {
       "id": "tuik-konut-satis",
@@ -470,10 +547,39 @@
       "titleEn": "Ministry of Interior written statements and ministerial statements on the investor route",
       "publisher": "Icisleri Bakanligi",
       "subject": "Cumulative investor-route acquisitions, and cancellations and withdrawals under Law No. 5901 art. 31 and art. 40. Each record in data/statistics.json names the statement date it rests on, because no published table carries these figures.",
-      "url": "https://www.icisleri.gov.tr",
-      "verification": "secondary",
-      "note": "Written statements of this kind are reported in the press rather than published as a dataset. Records sourced this way are marked in their own source field and should be read as official statements reported secondhand.",
-      "lastChecked": "2026-11-08"
+      "url": "https://www.icisleri.gov.tr/basin-aciklamalari-yeni",
+      "verification": "official_text_located",
+      "note": "The Ministry publishes these statements on icisleri.gov.tr under Basın Açıklamaları. The statements of 4 August and 21 September 2026 were read there on 2026-11-20 and every enforcement figure in data/statistics.json attributed to the Ministry matches them. The 4 August statement names the legal basis for the cumulative total jointly: Law No. 5901 arts. 31 (annulment, iptal) and 40 (withdrawal, geri alma); it calls the 5,391 annulled (iptal) and the 743 withdrawn (geri alınmıştır) on the ground that the legal conditions were not met. The ministerial statement of 29 May 2026 has not been located on the Ministry site.",
+      "lastChecked": "2026-11-20",
+      "statements": [
+        {
+          "date": "2026-08-04",
+          "title": "Sahte Değerleme/Ekspertiz Operasyonu ve Usulsüz Vatandaşlık İşlemleri Hakkında Basın Açıklaması",
+          "url": "https://www.icisleri.gov.tr/sahte-degerlemeekspertiz-operasyonu-ve-usulsuz-vatandaslik-islemleri-hakkinda-basin-aciklamasi",
+          "archiveUrl": "https://web.archive.org/web/20260808155833/https://www.icisleri.gov.tr/sahte-degerlemeekspertiz-operasyonu-ve-usulsuz-vatandaslik-islemleri-hakkinda-basin-aciklamasi",
+          "quotes": [
+            "muvazaalı veya usulsüz işlem gerçekleştirdiği tespit edilen 1.150 yatırımcının yatırım uygunluk belgesi iptal edilmiş ve aile fertleri dâhil toplam 5.391 kişinin vatandaşlık kararı iptal edilmiştir.",
+            "haklarında kamu düzeni ve millî güvenlik bakımından sakıncalı olduğu tespit edilen 263 yatırımcı ve aile fertleriyle birlikte toplam 743 kişinin vatandaşlık kararı hukuki şartların oluşmadığı gerekçesiyle geri alınmıştır.",
+            "Böylelikle toplamda 1.413 yatırımcı ve aile fertleri ile birlikte 6.134 kişinin vatandaşlık kazanma kararı 5901 sayılı Kanunun 31. ve 40. maddeleri uyarınca iptal edilmiş ya da geri alınmıştır.",
+            "11.02.2026 tarihinden itibaren ise yatırım uygunluk belgesi iptal edilen 443 yatırımcı ile aile fertleri olmak üzere toplamda 1.358 kişinin Türk vatandaşlığı iptal edilmiş, 7 kişinin ise haklarında milli güvenlik ve kamu düzeni bakımından sakınca bildirilmesi nedeniyle vatandaşlığı geri alınmıştır.",
+            "16 ilde sahte gayrimenkul değerleme raporlarıyla usulsüz vatandaşlık sağlayan şebekeye yönelik gerçekleştirilen operasyonda 72 şüphelinin yakalanması"
+          ],
+          "retrieved": "2026-11-20"
+        },
+        {
+          "date": "2026-09-21",
+          "title": "Basın Açıklaması",
+          "url": "https://www.icisleri.gov.tr/basin-aciklamasi-21-09",
+          "quotes": [
+            "1.150 yatırımcının yatırım uygunluk belgesi iptal edilmiş, aile fertleriyle birlikte toplam 5.391 kişinin vatandaşlık kararı iptal edilmiştir.",
+            "263 yatırımcı ve aile fertleriyle birlikte toplam 743 kişinin vatandaşlık kararı geri alınmıştır.",
+            "11 Şubat 2026 tarihinden itibaren ise yatırım uygunluk belgesi iptal edilen 458 yatırımcı ve aile fertleri olmak üzere toplam 1.393 kişinin vatandaşlığı iptal edilmiş, 7 kişinin vatandaşlığı ise millî güvenlik ve kamu düzeni bakımından sakınca bulunması nedeniyle geri alınmıştır.",
+            "aile bireyleriyle birlikte 1.070 kişi ile vatandaşlık edinme süreci devam eden 11 kişi tespit edilmiştir. Yapılan incelemede bu kişilerin 263'ünün yatırımcı, 807'sinin aile ferdi olduğu; 1.015 kişinin karar tarihinde, 55 çocuğun ise karar tarihinden sonra Türk vatandaşlığını kazandığı anlaşılmıştır.",
+            "Vatandaşlık süreci devam eden 11 kişiden 1'i hakkında geri alma, 3'ü hakkında ret işlemi gerçekleştirilmiş, 7 kişinin ise vatandaşlık başvurusunda bulunmadığı tespit edilmiştir."
+          ],
+          "retrieved": "2026-11-20"
+        }
+      ]
     },
     {
       "id": "istanbul-bassavciligi",
@@ -693,6 +799,78 @@
       "originalTextUrl": "https://www.resmigazete.gov.tr/eskiler/2026/11/20261118.htm",
       "verification": "official_text_located",
       "lastChecked": "2026-11-19"
+    },
+    {
+      "id": "law-2575",
+      "kind": "statute",
+      "titleTr": "Danistay Kanunu",
+      "titleTrNative": "Danıştay Kanunu",
+      "titleEn": "Council of State Law",
+      "number": "2575",
+      "adopted": "1982-01-06",
+      "resmiGazete": {
+        "date": "1982-01-20",
+        "issue": "17580"
+      },
+      "publisher": "Turkiye Buyuk Millet Meclisi",
+      "subject": "First-instance jurisdiction of the Council of State over Presidential decisions, relevant to challenges to citizenship decisions.",
+      "url": "https://www.mevzuat.gov.tr/mevzuatmetin/1.5.2575.pdf",
+      "verification": "official_text_located",
+      "lastChecked": "2026-11-20"
+    },
+    {
+      "id": "law-6735",
+      "kind": "statute",
+      "titleTr": "Uluslararasi Isgucu Kanunu",
+      "titleTrNative": "Uluslararası İşgücü Kanunu",
+      "titleEn": "International Labour Force Law",
+      "number": "6735",
+      "adopted": "2016-07-28",
+      "resmiGazete": {
+        "date": "2016-08-13",
+        "issue": "29800"
+      },
+      "publisher": "Turkiye Buyuk Millet Meclisi",
+      "subject": "Work permits for foreigners; a residence permit is not a work permit. Art. 27 of this Law added Law No. 6458 art. 31(1)(j).",
+      "url": "https://www.mevzuat.gov.tr/mevzuatmetin/1.5.6735.pdf",
+      "verification": "official_text_located",
+      "lastChecked": "2026-11-20"
+    },
+    {
+      "id": "law-1512",
+      "kind": "statute",
+      "titleTr": "Noterlik Kanunu",
+      "titleTrNative": "Noterlik Kanunu",
+      "titleEn": "Notaries Law",
+      "number": "1512",
+      "adopted": "1972-01-18",
+      "resmiGazete": {
+        "date": "1972-02-05",
+        "issue": "14090"
+      },
+      "publisher": "Turkiye Buyuk Millet Meclisi",
+      "subject": "Notarial acts, sworn translation and consular notarial powers used in the document chain.",
+      "url": "https://www.mevzuat.gov.tr/mevzuatmetin/1.5.1512.pdf",
+      "verification": "official_text_located",
+      "lastChecked": "2026-11-20"
+    },
+    {
+      "id": "law-5237",
+      "kind": "statute",
+      "titleTr": "Turk Ceza Kanunu",
+      "titleTrNative": "Türk Ceza Kanunu",
+      "titleEn": "Turkish Criminal Code",
+      "number": "5237",
+      "adopted": "2004-09-26",
+      "resmiGazete": {
+        "date": "2004-10-12",
+        "issue": "25611"
+      },
+      "publisher": "Turkiye Buyuk Millet Meclisi",
+      "subject": "Referenced only to separate criminal liability from the administrative annulment and withdrawal of citizenship.",
+      "url": "https://www.mevzuat.gov.tr/mevzuatmetin/1.5.5237.pdf",
+      "verification": "official_text_located",
+      "lastChecked": "2026-11-20"
     }
   ],
   "datasetSourceMap": {
@@ -762,15 +940,11 @@
   },
   "openQuestions": [
     "Decision numbers (esas and karar) for the Danistay rulings in the litigation series are not yet recorded.",
-    "The Tapu ve Kadastro Genel Mudurlugu circulars are not published in the Official Gazette. Circular 2024/2 (original and as updated on 2026-09-28) and Circular 2024/4 as in force from 2024-12-09 have been read. Still unread: Circular 2021/6, and the text of the amendment to Circular 2024/4 announced on 2026-09-29, which extends the six-month window between the Tutar Tespit Belgesi and the citizenship application to twelve months (confirmed in practice by Ra Legal; the text is still to be read). The updated text of 2024/2 was read from a third-party copy and should be re-read from TKGM when its file host serves the PDF.",
-    "The legal instrument behind the USD 200,000 property threshold for residence permits announced on 2023-10-16 has not been identified.",
-    "The Official Gazette issue number for the VAT General Application Communique amendment of 2017-05-05 is not yet recorded.",
+    "The amended texts of TKGM Circular 2024/2 (Makam Oluru no. E-90759875-020-22003020 of 2026-09-28) and Circular 2024/4 (Makam Oluru no. 21914825 of 2026-09-28) have been read only in third-party copies (memurlar.net, tapumevzuati.com.tr), because the TKGM file host cms-api.tkgm.gov.tr could not be reached and no Wayback capture exists. Re-read both from TKGM when its file host serves them, and record any in-force date TKGM states for the September 2026 changes; the 2024/4 text itself names none.",
+    "The legal instrument behind the USD 200,000 property threshold for residence permits announced on 2023-10-16 has not been identified. Since 30 November 2024 Law No. 6458 art. 31(6) (added by Law No. 7533) lets the Ministry of Interior set the value, but no published determination under it was found. The only official text located that states the figure is the e-ikamet document checklist for short-term permits (Wayback capture of 5 May 2025): \"The value of the house must be at least 200 thousand US Dollars equivalent to Turkish Lira as of the date of acquisition\". The goc.gov.tr announcement and press lists contain no announcement of it, and e-ikamet.goc.gov.tr itself could not be reached from the server used on 2026-11-20.",
     "The series in data/investment-returns.json have no entries in this register. Borsa Istanbul index levels, TCMB deposit rates and the TCMB residential property price index each need a dated entry with a URL and a retrieval date before a figure from that file can be cited the way a legal figure can.",
     "The lira gram gold price series in data/investment-returns.json has no identified publication at all.",
-    "The forum, the time limit and the availability of a stay of execution for a challenge to a decision annulling (Law No. 5901 art. 31) or withdrawing (art. 40) a grant of citizenship. Law No. 2577 is now in the register but the applicable provisions have not been read against these decisions, so the annulment page states the gap rather than an answer.",
-    "Four instruments are relied on in prose without register entries, because their Resmi Gazete date and issue could not be confirmed against an official text: Law No. 2575 (Danistay Kanunu), Law No. 6735 (Uluslararasi Isgucu Kanunu, needed to say properly that a residence permit is not a work permit), Law No. 1512 (Noterlik Kanunu, which carries the sworn translation and notarial step), and Law No. 5237 (Turk Ceza Kanunu, referenced only to separate administrative measures from criminal liability).",
-    "The HCCH competent-authority listing, which is a different table from the status table indexed as hcch-1961. Without it the legalisation page cannot name the authorities that issue an apostille in Turkiye.",
-    "Law No. 6458 sits at official_reference_located rather than official_text_located. Re-reading arts. 31(1) and 31(2) in the consolidated text would close two open paragraphs on the residence permit page at once, including the duration of a grant on the investor ground."
+    "The forum, the time limit and the availability of a stay of execution for a challenge to a decision annulling (Law No. 5901 art. 31) or withdrawing (art. 40) a grant of citizenship. Law No. 2577 is now in the register but the applicable provisions have not been read against these decisions, so the annulment page states the gap rather than an answer."
   ],
   "closedQuestions": [
     {
@@ -790,6 +964,50 @@
         "regulation-2010-139",
         "cbk-5554",
         "cbk-5072"
+      ]
+    },
+    {
+      "question": "The TKGM circulars previously unread: Circular 2021/6, and the text of the amendment to Circular 2024/4 announced on 2026-09-29, reported to extend the six-month window between the Tutar Tespit Belgesi and the citizenship application to twelve months.",
+      "closed": "2026-11-20",
+      "answer": "Circular 2024/4 was amended by Makam Oluru no. 21914825 of 28 September 2026 (ilgi (ı) of the consolidated text): \"TTB ile vatandaşlık kazanımı içeren işlem başvuru süresi arasındaki fark oniki ayı geçmeyecektir. Oniki ayı geçen TTB'lerde belgeye esas değerleme raporu yenilenecektir.\" The twelve-month window is confirmed by the text. The same amendment lets any SPK-authorised valuation firm prepare the report behind the TTB and rewrites the paragraph on real estate investment trusts. The text names no separate in-force date. It was read in a third-party copy (tapumevzuati.com.tr), see tkgm-genelge-2024-4. Circular 2021/6 (1911) of 15 September 2021, in force 20 September 2021, was read in the archived TKGM PDF; it set the TADEBIS and Web Tapu procedure for valuation reports and is now repealed.",
+      "sources": [
+        "tkgm-genelge-2024-4",
+        "tkgm-genelge-2021-6"
+      ]
+    },
+    {
+      "question": "The Official Gazette issue number for the VAT General Application Communique amendment of 2017-05-05 is not yet recorded.",
+      "closed": "2026-11-20",
+      "answer": "Resmî Gazete of 5 May 2017, No. 30057: \"5 Mayıs 2017 CUMA Resmî Gazete Sayı : 30057\", Katma Değer Vergisi Genel Uygulama Tebliğinde Değişiklik Yapılmasına Dair Tebliğ (Seri No: 12).",
+      "sources": [
+        "kdv-tebligi-13i"
+      ]
+    },
+    {
+      "question": "Four instruments are relied on in prose without register entries, because their Resmi Gazete date and issue could not be confirmed against an official text: Law No. 2575 (Danistay Kanunu), Law No. 6735 (Uluslararasi Isgucu Kanunu, needed to say properly that a residence permit is not a work permit), Law No. 1512 (Noterlik Kanunu, which carries the sworn translation and notarial step), and Law No. 5237 (Turk Ceza Kanunu, referenced only to separate administrative measures from criminal liability).",
+      "closed": "2026-11-20",
+      "answer": "Read from the headers of the consolidated texts on mevzuat.gov.tr: Law No. 2575, Resmî Gazete 20/1/1982 No. 17580; Law No. 6735, 13/8/2016 No. 29800; Law No. 1512, 5/2/1972 No. 14090; Law No. 5237, 12/10/2004 No. 25611. Each now has a register entry.",
+      "sources": [
+        "law-2575",
+        "law-6735",
+        "law-1512",
+        "law-5237"
+      ]
+    },
+    {
+      "question": "The HCCH competent-authority listing, which is a different table from the status table indexed as hcch-1961. Without it the legalisation page cannot name the authorities that issue an apostille in Turkiye.",
+      "closed": "2026-11-20",
+      "answer": "HCCH lists for Türkiye: administrative documents, in provinces the Governor, the Head Official of the District or the Chief Secretary, in towns the Head Official of the District; judicial documents, the Presidencies of the Judicial Commissions where high criminal courts sit. Recorded under hcch-1961.",
+      "sources": [
+        "hcch-1961"
+      ]
+    },
+    {
+      "question": "Law No. 6458 sits at official_reference_located rather than official_text_located. Re-reading arts. 31(1) and 31(2) in the consolidated text would close two open paragraphs on the residence permit page at once, including the duration of a grant on the investor ground.",
+      "closed": "2026-11-20",
+      "answer": "The consolidated text was read on 2026-11-20. Art. 31(2): up to two years at a time except under (j) and (k); art. 31(5): up to five years at a time under (j) and (k); art. 31(6), added by Law No. 7533 (Resmî Gazete 30 November 2024 No. 32738): the Ministry sets the type and value of the property for the property-owner permit; art. 28(2): student permit time counts at half.",
+      "sources": [
+        "law-6458"
       ]
     }
   ]

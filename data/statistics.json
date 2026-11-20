@@ -13,7 +13,7 @@
   },
   "name": "Turkish citizenship by investment: statistics",
   "description": "Long-format observations on Turkish citizenship acquisitions, the investment route, foreign property purchases, threshold and rule changes, and 2026 enforcement action. Every record names its source and an as-of date. value is null where the figure is not published.",
-  "asOf": "2026-11-19",
+  "asOf": "2026-11-20",
   "updateCadence": "quarterly",
   "license": "CC BY 4.0",
   "canonicalPage": "https://ralegal.com.tr/turkish-cbi-statistics",
@@ -35,7 +35,7 @@
     "No 2026 year-to-date nationality or province breakdown of foreign house sales is published.",
     "No official average transaction value for foreign property purchases is published by TUIK, TKGM or TCMB.",
     "The revised TUIK series year mapping for 2013 to 2021 is derived by ratio matching, not read off an official table.",
-    "Appraisal report validity is no longer an open point: 3 months under TKGM Circular 2024/2 from 4 March 2024, and 12 months since that circular was updated by Makam Oluru of 28 September 2026. The September 2026 amendment to Circular 2024/4 extends the six-month window between the Tutar Tespit Belgesi and the citizenship application to twelve months. Ra Legal, which publishes this dataset, confirms that window from its own filings; the amending text itself has not been read.",
+    "Appraisal report validity is no longer an open point: 3 months under TKGM Circular 2024/2 from 4 March 2024, and 12 months since that circular was updated by Makam Oluru of 28 September 2026. Separately, Circular 2024/4 as amended by Makam Oluru no. 21914825 of 28 September 2026 caps the window between the Tutar Tespit Belgesi and the citizenship application at twelve months (\"oniki ayı geçmeyecektir\"), up from six. Both amended texts were read in third-party copies because the TKGM file host could not be reached.",
     "The current status of the closed-neighbourhood regime for residence permits is unresolved. No official announcement lifting or restating the 2022 position was located.",
     "The legal instrument behind the USD 200,000 residence-permit property threshold of 16 October 2023 could not be identified.",
     "Overlap between the cumulative 6,134 cancellations and the 687 and 1,070 criminal-file identifications is unquantified."
@@ -2206,7 +2206,7 @@
           "value": 6134,
           "unit": "people",
           "published": true,
-          "source": "Ministry of Interior written statement of 4 August 2026, restated 21 September 2026",
+          "source": "Ministry of Interior press statements of 4 August 2026 (https://www.icisleri.gov.tr/sahte-degerlemeekspertiz-operasyonu-ve-usulsuz-vatandaslik-islemleri-hakkinda-basin-aciklamasi) and 21 September 2026 (https://www.icisleri.gov.tr/basin-aciklamasi-21-09), read on icisleri.gov.tr on 2026-11-20. The 4 August statement gives the legal basis as Law No. 5901 arts. 31 and 40.",
           "asOf": "2026-09-21"
         },
         {
@@ -2215,18 +2215,18 @@
           "value": 1413,
           "unit": "people",
           "published": true,
-          "source": "Ministry of Interior written statement of 4 August 2026, restated 21 September 2026",
+          "source": "Ministry of Interior press statements of 4 August 2026 (https://www.icisleri.gov.tr/sahte-degerlemeekspertiz-operasyonu-ve-usulsuz-vatandaslik-islemleri-hakkinda-basin-aciklamasi) and 21 September 2026 (https://www.icisleri.gov.tr/basin-aciklamasi-21-09), read on icisleri.gov.tr on 2026-11-20. The 4 August statement gives the legal basis as Law No. 5901 arts. 31 and 40.",
           "asOf": "2026-09-21"
         },
         {
           "period": "2026",
           "dimension": "valuation_report_certificates_cancelled_investors",
-          "description": "Investors whose investment conformity certificates (yatırım uygunluk belgesi) were cancelled because false or irregular valuation (ekspertiz) reports were used to meet the investment conditions.",
+          "description": "Investors whose investment conformity certificates (yatırım uygunluk belgesi) were cancelled after reviews by TKGM, the Tax Inspection Board and the police into false and irregular valuation (ekspertiz) reports found sham or irregular transactions (\"muvazaalı veya usulsüz işlem\", statement of 4 August 2026).",
           "previousDimension": "fraud_certificates_cancelled_investors",
           "value": 1150,
           "unit": "people",
           "published": true,
-          "source": "Ministry of Interior statement of 21 September 2026, as reported by the press (Karar, Turkish Minute); the Ministry's own page could not be retrieved. The article reference, Law No. 5901 Art. 31 (annulment), is this dataset's classification; the statement as reported does not cite one.",
+          "source": "Ministry of Interior press statements of 4 August 2026 (https://www.icisleri.gov.tr/sahte-degerlemeekspertiz-operasyonu-ve-usulsuz-vatandaslik-islemleri-hakkinda-basin-aciklamasi) and 21 September 2026 (https://www.icisleri.gov.tr/basin-aciklamasi-21-09), read on icisleri.gov.tr on 2026-11-20. The Ministry calls these decisions annulled (iptal), Law No. 5901 art. 31; the 4 August statement cites arts. 31 and 40 for the total.",
           "asOf": "2026-09-21"
         },
         {
@@ -2237,7 +2237,7 @@
           "value": 5391,
           "unit": "people",
           "published": true,
-          "source": "Ministry of Interior statement of 21 September 2026, as reported by the press (Karar, Turkish Minute); the Ministry's own page could not be retrieved. The article reference, Law No. 5901 Art. 31 (annulment), is this dataset's classification; the statement as reported does not cite one.",
+          "source": "Ministry of Interior press statements of 4 August 2026 (https://www.icisleri.gov.tr/sahte-degerlemeekspertiz-operasyonu-ve-usulsuz-vatandaslik-islemleri-hakkinda-basin-aciklamasi) and 21 September 2026 (https://www.icisleri.gov.tr/basin-aciklamasi-21-09), read on icisleri.gov.tr on 2026-11-20. The Ministry calls these decisions annulled (iptal), Law No. 5901 art. 31; the 4 August statement cites arts. 31 and 40 for the total.",
           "asOf": "2026-09-21"
         },
         {
@@ -2247,7 +2247,7 @@
           "value": 263,
           "unit": "people",
           "published": true,
-          "source": "Ministry of Interior statement of 21 September 2026, as reported by the press (Karar, Turkish Minute); the Ministry's own page could not be retrieved. The article reference, Law No. 5901 Art. 40 (withdrawal), is this dataset's classification; the statement as reported does not cite one.",
+          "source": "Ministry of Interior press statements of 4 August 2026 (https://www.icisleri.gov.tr/sahte-degerlemeekspertiz-operasyonu-ve-usulsuz-vatandaslik-islemleri-hakkinda-basin-aciklamasi) and 21 September 2026 (https://www.icisleri.gov.tr/basin-aciklamasi-21-09), read on icisleri.gov.tr on 2026-11-20. The Ministry calls these decisions withdrawn (geri alınmıştır) because the legal conditions were not met, the wording of Law No. 5901 art. 40.",
           "asOf": "2026-09-21"
         },
         {
@@ -2257,7 +2257,7 @@
           "value": 743,
           "unit": "people",
           "published": true,
-          "source": "Ministry of Interior statement of 21 September 2026, as reported by the press (Karar, Turkish Minute); the Ministry's own page could not be retrieved. The article reference, Law No. 5901 Art. 40 (withdrawal), is this dataset's classification; the statement as reported does not cite one.",
+          "source": "Ministry of Interior press statements of 4 August 2026 (https://www.icisleri.gov.tr/sahte-degerlemeekspertiz-operasyonu-ve-usulsuz-vatandaslik-islemleri-hakkinda-basin-aciklamasi) and 21 September 2026 (https://www.icisleri.gov.tr/basin-aciklamasi-21-09), read on icisleri.gov.tr on 2026-11-20. The Ministry calls these decisions withdrawn (geri alınmıştır) because the legal conditions were not met, the wording of Law No. 5901 art. 40.",
           "asOf": "2026-09-21"
         }
       ]
@@ -2270,7 +2270,7 @@
           "value": 443,
           "unit": "people",
           "published": true,
-          "source": "Ministry of Interior written statement of 4 August 2026",
+          "source": "Ministry of Interior press statement of 4 August 2026 (https://www.icisleri.gov.tr/sahte-degerlemeekspertiz-operasyonu-ve-usulsuz-vatandaslik-islemleri-hakkinda-basin-aciklamasi)",
           "asOf": "2026-08-04"
         },
         {
@@ -2279,7 +2279,7 @@
           "value": 1358,
           "unit": "people",
           "published": true,
-          "source": "Ministry of Interior written statement of 4 August 2026",
+          "source": "Ministry of Interior press statement of 4 August 2026 (https://www.icisleri.gov.tr/sahte-degerlemeekspertiz-operasyonu-ve-usulsuz-vatandaslik-islemleri-hakkinda-basin-aciklamasi)",
           "asOf": "2026-08-04"
         },
         {
@@ -2288,7 +2288,7 @@
           "value": 7,
           "unit": "people",
           "published": true,
-          "source": "Ministry of Interior written statement of 4 August 2026",
+          "source": "Ministry of Interior press statement of 4 August 2026 (https://www.icisleri.gov.tr/sahte-degerlemeekspertiz-operasyonu-ve-usulsuz-vatandaslik-islemleri-hakkinda-basin-aciklamasi)",
           "asOf": "2026-08-04"
         },
         {
@@ -2297,7 +2297,7 @@
           "value": 458,
           "unit": "people",
           "published": true,
-          "source": "Ministry of Interior restatement of 21 September 2026",
+          "source": "Ministry of Interior press statement of 21 September 2026 (https://www.icisleri.gov.tr/basin-aciklamasi-21-09)",
           "asOf": "2026-09-21"
         },
         {
@@ -2306,7 +2306,7 @@
           "value": 1393,
           "unit": "people",
           "published": true,
-          "source": "Ministry of Interior restatement of 21 September 2026",
+          "source": "Ministry of Interior press statement of 21 September 2026 (https://www.icisleri.gov.tr/basin-aciklamasi-21-09)",
           "asOf": "2026-09-21"
         },
         {
@@ -2315,7 +2315,7 @@
           "value": 7,
           "unit": "people",
           "published": true,
-          "source": "Ministry of Interior restatement of 21 September 2026",
+          "source": "Ministry of Interior press statement of 21 September 2026 (https://www.icisleri.gov.tr/basin-aciklamasi-21-09)",
           "asOf": "2026-09-21"
         }
       ]
@@ -2346,7 +2346,7 @@
           "value": 72,
           "unit": "people",
           "published": true,
-          "source": "Istanbul Chief Public Prosecutor investigation file, announced 4 August 2026",
+          "source": "Istanbul Chief Public Prosecutor investigation file, announced 4 August 2026; confirmed by the Ministry of Interior press statement of 4 August 2026 (\"16 ilde ... 72 şüphelinin yakalanması\")",
           "asOf": "2026-08-04"
         },
         {
@@ -2355,7 +2355,7 @@
           "value": 16,
           "unit": "provinces",
           "published": true,
-          "source": "Istanbul Chief Public Prosecutor investigation file, announced 4 August 2026",
+          "source": "Istanbul Chief Public Prosecutor investigation file, announced 4 August 2026; confirmed by the Ministry of Interior press statement of 4 August 2026 (\"16 ilde ... 72 şüphelinin yakalanması\")",
           "asOf": "2026-08-04"
         },
         {
@@ -2395,7 +2395,7 @@
           "value": 1070,
           "unit": "people",
           "published": true,
-          "source": "Istanbul Chief Public Prosecutor operation of 21 September 2026; one quotation gives 1071",
+          "source": "Istanbul Chief Public Prosecutor operation of 21 September 2026; one quotation gives 1071; figure confirmed by the Ministry of Interior press statement of 21 September 2026 (https://www.icisleri.gov.tr/basin-aciklamasi-21-09)",
           "asOf": "2026-09-21"
         },
         {
@@ -2404,7 +2404,7 @@
           "value": 263,
           "unit": "people",
           "published": true,
-          "source": "Istanbul Chief Public Prosecutor operation of 21 September 2026; distinct from the 263 Art. 40 investors, do not merge",
+          "source": "Istanbul Chief Public Prosecutor operation of 21 September 2026; distinct from the 263 Art. 40 investors, do not merge; figure confirmed by the Ministry of Interior press statement of 21 September 2026 (https://www.icisleri.gov.tr/basin-aciklamasi-21-09)",
           "asOf": "2026-09-21"
         },
         {
@@ -2413,7 +2413,7 @@
           "value": 807,
           "unit": "people",
           "published": true,
-          "source": "Istanbul Chief Public Prosecutor operation of 21 September 2026",
+          "source": "Istanbul Chief Public Prosecutor operation of 21 September 2026; figure confirmed by the Ministry of Interior press statement of 21 September 2026 (https://www.icisleri.gov.tr/basin-aciklamasi-21-09)",
           "asOf": "2026-09-21"
         },
         {
@@ -2422,7 +2422,7 @@
           "value": 11,
           "unit": "people",
           "published": true,
-          "source": "Istanbul Chief Public Prosecutor operation of 21 September 2026",
+          "source": "Istanbul Chief Public Prosecutor operation of 21 September 2026; figure confirmed by the Ministry of Interior press statement of 21 September 2026 (https://www.icisleri.gov.tr/basin-aciklamasi-21-09)",
           "asOf": "2026-09-21"
         },
         {
@@ -2431,7 +2431,7 @@
           "value": 3,
           "unit": "files",
           "published": true,
-          "source": "Istanbul Chief Public Prosecutor operation of 21 September 2026; subset of the 11 in process",
+          "source": "Istanbul Chief Public Prosecutor operation of 21 September 2026; subset of the 11 in process; figure confirmed by the Ministry of Interior press statement of 21 September 2026 (https://www.icisleri.gov.tr/basin-aciklamasi-21-09)",
           "asOf": "2026-09-21"
         },
         {
@@ -2440,7 +2440,7 @@
           "value": 55,
           "unit": "people",
           "published": true,
-          "source": "Istanbul Chief Public Prosecutor operation of 21 September 2026",
+          "source": "Istanbul Chief Public Prosecutor operation of 21 September 2026; figure confirmed by the Ministry of Interior press statement of 21 September 2026 (https://www.icisleri.gov.tr/basin-aciklamasi-21-09)",
           "asOf": "2026-09-21"
         },
         {
@@ -2551,8 +2551,8 @@
           "value": null,
           "unit": "people",
           "published": false,
-          "source": "No October or November 2026 Ministry statement superseding 6134 located as of 8 November 2026",
-          "asOf": "2026-11-08"
+          "source": "No Ministry statement superseding 6134 located in the Basın Açıklamaları and Haberler lists on icisleri.gov.tr for 1 October to 20 November 2026",
+          "asOf": "2026-11-20"
         }
       ]
     },
