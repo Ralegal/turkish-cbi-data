@@ -13,7 +13,7 @@
   },
   "name": "Turkish citizenship by investment: statistics",
   "description": "Long-format observations on Turkish citizenship acquisitions, the investment route, foreign property purchases, threshold and rule changes, and 2026 enforcement action. Every record names its source and an as-of date. value is null where the figure is not published.",
-  "asOf": "2026-11-20",
+  "asOf": "2026-11-22",
   "updateCadence": "quarterly",
   "license": "CC BY 4.0",
   "canonicalPage": "https://ralegal.com.tr/turkish-cbi-statistics",
@@ -2482,10 +2482,10 @@
         {
           "period": "2026-09-21",
           "dimension": "detained",
-          "value": 72,
+          "value": 73,
           "unit": "people",
           "published": true,
-          "source": "Istanbul Chief Public Prosecutor operation of 21 September 2026; outlet reports vary between 72 and 74",
+          "source": "Anadolu Agency, 21 September 2026 (https://www.aa.com.tr/tr/gundem/istanbul-merkezli-usulsuz-vatandaslik-operasyonunda-73-zanli-yakalandi/4062988): \"İstanbul merkezli 13 ilde ... toplam 73 şüpheli gözaltına alındı\", in an operation targeting 88 suspects at 78 addresses; 74 detainees by 24 September. Release 1.4 recorded 72, a figure that belongs to the 4 August operation.",
           "asOf": "2026-09-21"
         },
         {
@@ -2515,31 +2515,23 @@
     "enforcement_arrests": {
       "records": [
         {
-          "period": "2026-09-25",
+          "period": "2026-09-24",
           "dimension": "referred_for_arrest",
           "value": 52,
           "unit": "people",
           "published": true,
-          "source": "Anadolu Agency",
-          "asOf": "2026-09-25"
+          "source": "Anadolu Agency, 24 September 2026 (https://www.aa.com.tr/tr/gundem/istanbul-merkezli-usulsuz-vatandaslik-operasyonunda-yakalanan-52-supheliye-tutuklama-talebi-/4068309): of 74 detainees, \"7'si başka suçtan tutuklu 52 şüpheli tutuklama talebiyle sulh ceza hakimliğine sevk edildi\"",
+          "asOf": "2026-09-24"
         },
         {
           "period": "2026-09-25",
-          "dimension": "jailed_or_arrested_low",
-          "value": 26,
-          "unit": "people",
-          "published": true,
-          "source": "Reports disagree: Diken reports 26 jailed, Cumhuriyet reports 33 arrested",
-          "asOf": "2026-09-25"
-        },
-        {
-          "period": "2026-09-25",
-          "dimension": "jailed_or_arrested_high",
+          "dimension": "arrested",
           "value": 33,
           "unit": "people",
           "published": true,
-          "source": "Reports disagree: Diken reports 26 jailed, Cumhuriyet reports 33 arrested",
-          "asOf": "2026-09-25"
+          "source": "Anadolu Agency, 25 September 2026 (https://www.aa.com.tr/tr/gundem/istanbul-merkezli-usulsuz-vatandaslik-operasyonunda-yakalanan-33-supheli-tutuklandi/4068739): \"Hakimlik 33 şüphelinin tutuklanmasına karar verdi\"; 20 placed under house arrest and 21 under other judicial control. Replaces the 26 to 33 range of release 1.4, whose lower figure (Diken) is not supported by the state agency report.",
+          "asOf": "2026-09-25",
+          "previousDimension": "jailed_or_arrested_high"
         }
       ]
     },

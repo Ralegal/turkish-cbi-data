@@ -10,3 +10,4 @@ Sworn translation and notarisation,all,per_person,120,250,,,Per person in the fa
 Residence permit and citizenship application fees,all,per_person,100,220,,,Per person in the family file
 Biometric photos and courier,all,fixed,100,300,,,
 Bank account opening and blocked-deposit setup,bank_deposit,fixed,0,500,,,Varies by bank; some waive it for a deposit of this size
+Land registry revolving fund charge for a foreign party,real_estate,fixed,426,426,,,"TKGM 2026 revolving fund tariff item 1.11: TRY 20,868 per property or unit in a transfer to which a foreigner is a party, on top of the base charge (local coefficient times TRY 2,227); USD at TRY 49"
