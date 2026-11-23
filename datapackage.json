@@ -5,7 +5,7 @@
   "title": "Turkish Citizenship by Investment: Open Data",
   "description": "Machine-readable reference data on Türkiye's citizenship-by-investment programme under Law No. 5901 Art. 12(1)(b): qualifying thresholds and their legal basis, route conditions, government transaction costs, required documents, apostille status, observed processing times, the investor residence permit of Presidential Decision No. 11994, published statistics, and an index of primary sources. Every figure is dated and sourced; unpublished figures are recorded as null rather than estimated. General information about Turkish law, not legal advice.",
   "version": "1.4.1",
-  "created": "2026-11-23",
+  "created": "2026-11-23T00:00:00Z",
   "homepage": "https://ralegal.com.tr/data/turkish-cbi-open-data",
   "repository": "https://github.com/Ralegal/turkish-cbi-data",
   "keywords": [
