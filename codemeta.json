@@ -1,0 +1,69 @@
+{
+  "@context": "https://w3id.org/codemeta/3.0",
+  "@type": "Dataset",
+  "@id": "https://doi.org/10.5281/zenodo.24372293",
+  "identifier": "https://doi.org/10.5281/zenodo.24372293",
+  "name": "Turkish Citizenship by Investment: Open Data",
+  "description": "Machine-readable reference data on Türkiye's citizenship-by-investment programme: qualifying investment thresholds and their statutory basis, route conditions, government and third-party transaction costs, required documents, apostille status, observed processing times, the investor residence permit of Presidential Decision No. 11994, published statistics, and an index of the primary sources behind each figure. Every figure is dated and sourced.",
+  "version": "1.4.1",
+  "dateCreated": "2026-11-08",
+  "dateModified": "2026-11-23",
+  "datePublished": "2026-11-13",
+  "license": "https://spdx.org/licenses/CC-BY-4.0",
+  "codeRepository": "https://github.com/Ralegal/turkish-cbi-data",
+  "url": "https://ralegal.com.tr/data/turkish-cbi-open-data",
+  "issueTracker": "https://github.com/Ralegal/turkish-cbi-data/issues",
+  "inLanguage": "en",
+  "keywords": [
+    "Türkiye",
+    "Turkish citizenship",
+    "citizenship by investment",
+    "investment migration",
+    "residence permit",
+    "real estate",
+    "Law No. 5901",
+    "open data"
+  ],
+  "author": [
+    {
+      "@type": "Person",
+      "givenName": "Rüzgar",
+      "familyName": "Sevimli",
+      "jobTitle": "Attorney, Istanbul Bar Association",
+      "url": "https://ralegal.com.tr/team/ruzgar-sevimli",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "Ra Legal",
+        "url": "https://ralegal.com.tr"
+      }
+    },
+    {
+      "@type": "Organization",
+      "name": "Ra Legal",
+      "url": "https://ralegal.com.tr",
+      "email": "info@ralegal.com.tr",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Istanbul",
+        "addressCountry": "TR"
+      }
+    }
+  ],
+  "maintainer": {
+    "@type": "Organization",
+    "name": "Ra Legal",
+    "url": "https://ralegal.com.tr",
+    "email": "info@ralegal.com.tr"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Ra Legal",
+    "url": "https://ralegal.com.tr"
+  },
+  "spatialCoverage": "Türkiye",
+  "temporalCoverage": "2013/2026",
+  "sameAs": [
+    "https://doi.org/10.5281/zenodo.24372293",
+    "https://ralegal.com.tr/data/turkish-cbi-open-data"
+  ]
+}

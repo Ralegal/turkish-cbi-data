@@ -1,0 +1,261 @@
+{
+  "profile": "data-package",
+  "name": "turkish-cbi-data",
+  "id": "https://doi.org/10.5281/zenodo.24372293",
+  "title": "Turkish Citizenship by Investment: Open Data",
+  "description": "Machine-readable reference data on Türkiye's citizenship-by-investment programme under Law No. 5901 Art. 12(1)(b): qualifying thresholds and their legal basis, route conditions, government transaction costs, required documents, apostille status, observed processing times, the investor residence permit of Presidential Decision No. 11994, published statistics, and an index of primary sources. Every figure is dated and sourced; unpublished figures are recorded as null rather than estimated. General information about Turkish law, not legal advice.",
+  "version": "1.4.1",
+  "created": "2026-11-23",
+  "homepage": "https://ralegal.com.tr/data/turkish-cbi-open-data",
+  "repository": "https://github.com/Ralegal/turkish-cbi-data",
+  "keywords": [
+    "Türkiye",
+    "Turkish citizenship",
+    "citizenship by investment",
+    "investment migration",
+    "residence permit",
+    "real estate",
+    "Law No. 5901",
+    "open data"
+  ],
+  "licenses": [
+    {
+      "name": "CC-BY-4.0",
+      "title": "Creative Commons Attribution 4.0 International",
+      "path": "https://creativecommons.org/licenses/by/4.0/"
+    }
+  ],
+  "contributors": [
+    {
+      "title": "Rüzgar Sevimli",
+      "role": "author",
+      "organization": "Ra Legal",
+      "path": "https://ralegal.com.tr/team/ruzgar-sevimli"
+    },
+    {
+      "title": "Ra Legal",
+      "role": "publisher",
+      "email": "info@ralegal.com.tr",
+      "path": "https://ralegal.com.tr"
+    },
+    {
+      "title": "Ra Legal",
+      "role": "maintainer",
+      "email": "info@ralegal.com.tr",
+      "path": "https://github.com/Ralegal/turkish-cbi-data"
+    }
+  ],
+  "citation": "Sevimli, R. and Ra Legal (2026). Turkish Citizenship by Investment: Open Data. Zenodo. https://doi.org/10.5281/zenodo.24372293",
+  "sources": [
+    {
+      "title": "Turkish Citizenship Law No. 5901 and its implementing Regulation",
+      "path": "https://www.mevzuat.gov.tr"
+    },
+    {
+      "title": "Resmi Gazete (Official Gazette of the Republic of Türkiye)",
+      "path": "https://www.resmigazete.gov.tr"
+    },
+    {
+      "title": "Turkish Statistical Institute (TUIK) house sales statistics",
+      "path": "https://data.tuik.gov.tr"
+    },
+    {
+      "title": "Ministry of Interior press statements",
+      "path": "https://www.icisleri.gov.tr"
+    },
+    {
+      "title": "Full register of sources: data/sources.json",
+      "path": "data/sources.json"
+    }
+  ],
+  "resources": [
+    {
+      "name": "investment-thresholds",
+      "path": "data/investment-thresholds.json",
+      "title": "Investment thresholds",
+      "description": "Current and historical qualifying investment thresholds per route, holding periods, the instrument behind each change, family inclusion rules and general requirements.",
+      "format": "json",
+      "mediatype": "application/json",
+      "encoding": "utf-8",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "profile": "data-resource"
+    },
+    {
+      "name": "government-costs",
+      "path": "data/government-costs.csv",
+      "title": "Government costs",
+      "description": "Government and third-party transaction costs per route, as a fixed amount, a per-person amount or a percentage of value. Attorney fees are excluded.",
+      "format": "csv",
+      "mediatype": "text/csv",
+      "encoding": "utf-8",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "item",
+            "type": "string",
+            "description": "Cost item"
+          },
+          {
+            "name": "route",
+            "type": "string",
+            "description": "Investment route the item applies to, or all"
+          },
+          {
+            "name": "basis",
+            "type": "string",
+            "description": "How the amount is expressed: fixed, per_person or percent"
+          },
+          {
+            "name": "amount_usd_low",
+            "type": "number",
+            "description": "Low end of the amount in US dollars, where a fixed amount applies"
+          },
+          {
+            "name": "amount_usd_high",
+            "type": "number",
+            "description": "High end of the amount in US dollars, where a fixed amount applies"
+          },
+          {
+            "name": "percent_of_value",
+            "type": "number",
+            "description": "Rate as a percentage of the transaction or investment value"
+          },
+          {
+            "name": "percent_of_value_high",
+            "type": "number",
+            "description": "Upper rate where the percentage varies"
+          },
+          {
+            "name": "notes",
+            "type": "string",
+            "description": "Legal basis and caveats"
+          }
+        ]
+      }
+    },
+    {
+      "name": "document-checklist",
+      "path": "data/document-checklist.json",
+      "title": "Document checklist",
+      "description": "Documents required of the main applicant, a spouse and children, with apostille or legalisation status.",
+      "format": "json",
+      "mediatype": "application/json",
+      "encoding": "utf-8",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "profile": "data-resource"
+    },
+    {
+      "name": "apostille-countries",
+      "path": "data/apostille-countries.json",
+      "title": "Apostille countries",
+      "description": "Hague Apostille Convention status for every Contracting Party, with the date the Convention entered into force for each, by ISO 3166-1 alpha-2 code.",
+      "format": "json",
+      "mediatype": "application/json",
+      "encoding": "utf-8",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "profile": "data-resource"
+    },
+    {
+      "name": "processing-times",
+      "path": "data/processing-times.json",
+      "title": "Processing times",
+      "description": "Observed duration per stage of an application and the end-to-end range. Marked basis=observed: no Turkish authority publishes an official figure.",
+      "format": "json",
+      "mediatype": "application/json",
+      "encoding": "utf-8",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "profile": "data-resource"
+    },
+    {
+      "name": "investment-returns",
+      "path": "data/investment-returns.json",
+      "title": "Investment returns",
+      "description": "Year-end index levels and rates for the qualifying asset classes, with USD/TRY. Gross of taxes and fees; not investment advice.",
+      "format": "json",
+      "mediatype": "application/json",
+      "encoding": "utf-8",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "profile": "data-resource"
+    },
+    {
+      "name": "investor-residence-permit",
+      "path": "data/investor-residence-permit.json",
+      "title": "Investor residence permit",
+      "description": "The investor residence permit created by Presidential Decision No. 11994 (Resmi Gazete 18 November 2026, No. 33434). A residence track, not a citizenship route.",
+      "format": "json",
+      "mediatype": "application/json",
+      "encoding": "utf-8",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "profile": "data-resource"
+    },
+    {
+      "name": "statistics",
+      "path": "data/statistics.json",
+      "title": "Statistics",
+      "description": "Long-format statistical observations on citizenship acquisitions, the investment route, foreign property purchases and 2026 enforcement action. Each record names its source and as-of date; value is null where not published.",
+      "format": "json",
+      "mediatype": "application/json",
+      "encoding": "utf-8",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "profile": "data-resource"
+    },
+    {
+      "name": "sources",
+      "path": "data/sources.json",
+      "title": "Sources",
+      "description": "Register of the statutes, regulations, decisions, circulars and statistical publications behind every figure, with Resmi Gazete dates and a verification status per citation.",
+      "format": "json",
+      "mediatype": "application/json",
+      "encoding": "utf-8",
+      "licenses": [
+        {
+          "name": "CC-BY-4.0",
+          "path": "https://creativecommons.org/licenses/by/4.0/"
+        }
+      ],
+      "profile": "data-resource"
+    }
+  ]
+}

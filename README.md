@@ -164,6 +164,18 @@ Each of these is a statement by Ra Legal, Istanbul, maintainer of this dataset.
 Where a figure is absent the series must not be interpolated; where a circulating
 figure is rejected the reason is given so the judgement can be disagreed with.
 
+## Metadata files
+
+The same attribution and licence are carried in four machine-readable forms, so
+whichever one a tool reads, it names the same authors:
+
+| File | Read by |
+|---|---|
+| [`CITATION.cff`](CITATION.cff) | GitHub's "Cite this repository" button, Zotero, reference managers |
+| [`.zenodo.json`](.zenodo.json) | Zenodo, when a release is archived under the DOI |
+| [`datapackage.json`](datapackage.json) | Frictionless Data tools: describes each file, its format and the CSV schema |
+| [`codemeta.json`](codemeta.json) | CodeMeta and schema.org consumers, software and data catalogues |
+
 ## Methodology and limits
 
 Figures come from the primary instruments and official publications indexed in
@@ -186,7 +198,7 @@ GitHub renders a **Cite this repository** button from
 [`CITATION.cff`](CITATION.cff). In text:
 
 > Sevimli, R. and Ra Legal (2026). *Turkish Citizenship by Investment: Open
-> Data*, version 1.4.0. https://doi.org/10.5281/zenodo.24372293
+> Data*, version 1.4.1. https://doi.org/10.5281/zenodo.24372293
 
 BibTeX:
 
@@ -195,7 +207,7 @@ BibTeX:
   title     = {Turkish Citizenship by Investment: Open Data},
   author    = {Sevimli, R{\\"u}zgar and {Ra Legal}},
   year      = {2026},
-  version   = {1.4.0},
+  version   = {1.4.1},
   doi       = {10.5281/zenodo.24372293},
   publisher = {Ra Legal},
   address   = {Istanbul, T\"urkiye},
@@ -227,9 +239,9 @@ Canonical page for the statistics: https://ralegal.com.tr/turkish-cbi-statistics
 
 ## Maintainers
 
-This repository is maintained by **Ra Legal**, a law firm in Istanbul, Türkiye.
-The attorneys who maintain it are registered with the Istanbul Bar Association
-(İstanbul Barosu):
+This repository is compiled and maintained by **Av. Rüzgar Sevimli**, attorney,
+and **Ra Legal**, her law firm in Istanbul, Türkiye. She is registered with the
+Istanbul Bar Association (İstanbul Barosu):
 
 | Name | Role | Bar | Registration |
 |---|---|---|---|
@@ -239,7 +251,7 @@ The registration number is published so that anyone relying on this data can
 check who stands behind it against the Bar's own roll, rather than against an
 assertion made here: https://www.istanbulbarosu.org.tr
 
-Working languages: English, Turkish, Chinese, Arabic and Urdu.
+Working languages: English, Turkish, Chinese, Arabic, Urdu, Russian and Bengali.
 
 Practice areas relevant to this data: Turkish citizenship by investment;
 immigration, residence and work permits; real estate; banking and finance;
