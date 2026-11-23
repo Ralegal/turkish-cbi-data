@@ -1,17 +1,30 @@
 {
   "upload_type": "dataset",
   "title": "Turkish Citizenship by Investment: Open Data",
-  "description": "<p>Machine-readable reference data on T&uuml;rkiye's citizenship-by-investment programme. Qualifying investment thresholds and the statutory basis for each, the conditions attached to every route, government and third-party transaction costs, the documents an application requires by nationality and family position, published statistics on citizenship acquisitions and foreign property purchases, and an index of the primary sources behind each figure.</p><p>Every figure is dated and attributed to the instrument or publication it comes from, with its Resm&icirc; Gazete date where one exists. The dataset also records, explicitly, what T&uuml;rkiye does not publish and which figures in circulation do not reconcile against primary sources, so that gaps are visible rather than silently interpolated.</p><p>Maintained by <a href=\"https://ralegal.com.tr\">Ra Legal</a>, a law firm in Istanbul, and by <a href=\"https://ralegal.com.tr/team/ruzgar-sevimli\">Av. R&uuml;zgar Sevimli</a>, registered with the Istanbul Bar Association under number 69519. The registration number is published so that anyone relying on the data can check who stands behind it against the Bar's own roll.</p><p>General information about Turkish law. Not legal advice.</p><p>The dataset is rendered in full, with the commit it was built from, at <a href=\"https://ralegal.com.tr/data/turkish-cbi-open-data\">ralegal.com.tr/data/turkish-cbi-open-data</a>. The statistics tracker is at <a href=\"https://ralegal.com.tr/turkish-cbi-statistics\">ralegal.com.tr/turkish-cbi-statistics</a>, and the explanatory guides that set out the procedure around these figures are at <a href=\"https://ralegal.com.tr/turkish-citizenship-by-investment\">ralegal.com.tr/turkish-citizenship-by-investment</a>.</p>",
+  "description": "<p>Machine-readable reference data on T&uuml;rkiye's citizenship-by-investment programme under Article 12(1)(b) of Turkish Citizenship Law No. 5901 and Article 20 of its implementing Regulation. The deposit contains nine files in JSON and CSV: current and historical qualifying investment thresholds with the instrument behind each change (2017 to date); the conditions attached to every route; government and third-party transaction costs; the documents an application requires by family position; Hague Apostille Convention status by country; observed processing durations; year-end return series for the qualifying asset classes; the investor residence permit created by Presidential Decision No. 11994 of 18 November 2026, held separately because it is not a citizenship route; and a statistics tracker of long-format observations on citizenship acquisitions, the investment route, foreign property purchases and 2026 enforcement action (2013 to 2026).</p><p><strong>Sources and method.</strong> Every figure carries the instrument or publication it comes from and the date it speaks as of. Primary sources are statutes and regulations on mevzuat.gov.tr, the Resm&icirc; Gazete, Land Registry (TKGM) circulars, T&Uuml;&#304;K bulletins, Central Bank balance-of-payments data and Interior Ministry statements; <code>data/sources.json</code> indexes them with a verification status per citation. Where no authority publishes a figure the value is <code>null</code> and the gap is listed (<code>notKnown</code>); figures widely repeated elsewhere that do not reconcile with published data are listed with the reason they are not used (<code>figuresInCirculationNotUsed</code>). Nothing is interpolated or estimated. Processing times are marked <code>\"basis\": \"observed\"</code> because no authority publishes one.</p><p><strong>Known limits.</strong> No Turkish authority publishes an annual investment-route series or application, approval or rejection counts, so the statistics are partial and some rest on ministerial statements reported in the press; this is recorded per record. Cost figures are typical observed ranges, not quotes. Attorney fees are excluded. Rules change: check each file's <code>asOf</code> field and the Resm&icirc; Gazete for later amendments. General information about Turkish law, not legal advice.</p><p><strong>Updates.</strong> Revised when an instrument changes or a statistical source publishes, and at least quarterly. Each release is a new version under the concept DOI 10.5281/zenodo.24372293. Corrections with a primary source are welcome as issues on the GitHub repository.</p><p><strong>Authors and maintenance.</strong> Compiled and maintained by Av. <a href=\"https://ralegal.com.tr/team/ruzgar-sevimli\">R&uuml;zgar Sevimli</a>, attorney registered with the Istanbul Bar Association (no. 69519), and <a href=\"https://ralegal.com.tr\">Ra Legal</a>, a law firm in Istanbul. The registration number is published so that anyone relying on the data can check who stands behind it against the Bar's own roll.</p><p><strong>How to cite.</strong> Sevimli, R. and Ra Legal (2026). <em>Turkish Citizenship by Investment: Open Data</em> [Data set]. Zenodo. https://doi.org/10.5281/zenodo.24372293. When citing a single figure, cite that record's own <code>source</code> field as well.</p><p>Licence: CC BY 4.0. The dataset is rendered in full at <a href=\"https://ralegal.com.tr/data/turkish-cbi-open-data\">ralegal.com.tr/data/turkish-cbi-open-data</a>, with a statistics tracker at <a href=\"https://ralegal.com.tr/turkish-cbi-statistics\">ralegal.com.tr/turkish-cbi-statistics</a>. Source repository: <a href=\"https://github.com/Ralegal/turkish-cbi-data\">github.com/Ralegal/turkish-cbi-data</a>.</p>",
+  "method": "Each figure was read from the primary instrument or official publication it cites (Resmi Gazete, mevzuat.gov.tr, TKGM circulars, TUIK bulletins, TCMB balance of payments, Interior Ministry statements). Where only secondary reporting was available this is recorded in the verification field of data/sources.json. Unpublished figures are recorded as null with published=false rather than estimated. Processing times are observations from files handled by Ra Legal and are marked basis=observed.",
   "access_right": "open",
   "license": "cc-by-4.0",
   "language": "eng",
   "creators": [
     {
       "name": "Sevimli, Rüzgar",
-      "affiliation": "Ra Legal, Istanbul Bar Association"
+      "affiliation": "Ra Legal"
     },
     {
       "name": "Ra Legal",
+      "affiliation": "Istanbul, Türkiye"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Sevimli, Rüzgar",
+      "type": "DataCurator",
+      "affiliation": "Ra Legal"
+    },
+    {
+      "name": "Ra Legal",
+      "type": "ContactPerson",
       "affiliation": "Istanbul, Türkiye"
     }
   ],
@@ -26,9 +39,18 @@
     "immigration law",
     "legal data",
     "open data",
-    "Law No. 5901"
+    "Law No. 5901",
+    "Türkiye",
+    "Turkish Citizenship Law",
+    "Resmi Gazete"
   ],
   "related_identifiers": [
+    {
+      "identifier": "https://github.com/Ralegal/turkish-cbi-data",
+      "relation": "isSupplementTo",
+      "resource_type": "dataset",
+      "scheme": "url"
+    },
     {
       "identifier": "https://ralegal.com.tr/data/turkish-cbi-open-data",
       "relation": "isDocumentedBy",
