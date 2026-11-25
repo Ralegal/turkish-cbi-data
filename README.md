@@ -198,7 +198,7 @@ GitHub renders a **Cite this repository** button from
 [`CITATION.cff`](CITATION.cff). In text:
 
 > Sevimli, R. and Ra Legal (2026). *Turkish Citizenship by Investment: Open
-> Data*, version 1.4.1. https://doi.org/10.5281/zenodo.24372293
+> Data*, version 1.4.2. https://doi.org/10.5281/zenodo.24372293
 
 BibTeX:
 
@@ -207,7 +207,7 @@ BibTeX:
   title     = {Turkish Citizenship by Investment: Open Data},
   author    = {Sevimli, R{\\"u}zgar and {Ra Legal}},
   year      = {2026},
-  version   = {1.4.1},
+  version   = {1.4.2},
   doi       = {10.5281/zenodo.24372293},
   publisher = {Ra Legal},
   address   = {Istanbul, T\"urkiye},
