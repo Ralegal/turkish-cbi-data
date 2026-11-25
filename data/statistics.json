@@ -13,7 +13,7 @@
   },
   "name": "Turkish citizenship by investment: statistics",
   "description": "Long-format observations on Turkish citizenship acquisitions, the investment route, foreign property purchases, threshold and rule changes, and 2026 enforcement action. Every record names its source and an as-of date. value is null where the figure is not published.",
-  "asOf": "2026-11-22",
+  "asOf": "2026-11-25",
   "updateCadence": "quarterly",
   "license": "CC BY 4.0",
   "canonicalPage": "https://ralegal.com.tr/turkish-cbi-statistics",
@@ -35,7 +35,7 @@
     "No 2026 year-to-date nationality or province breakdown of foreign house sales is published.",
     "No official average transaction value for foreign property purchases is published by TUIK, TKGM or TCMB.",
     "The revised TUIK series year mapping for 2013 to 2021 is derived by ratio matching, not read off an official table.",
-    "Appraisal report validity is no longer an open point: 3 months under TKGM Circular 2024/2 from 4 March 2024, and 12 months since that circular was updated by Makam Oluru of 28 September 2026. Separately, Circular 2024/4 as amended by Makam Oluru no. 21914825 of 28 September 2026 caps the window between the Tutar Tespit Belgesi and the citizenship application at twelve months (\"oniki ayı geçmeyecektir\"), up from six. Both amended texts were read in third-party copies because the TKGM file host could not be reached.",
+    "Appraisal report validity is no longer an open point: 3 months under TKGM Circular 2024/2 from 4 March 2024, and 12 months since that circular was updated by Makam Oluru of 28 September 2026. Separately, Circular 2024/4 as amended by Makam Oluru no. 21914825 of 28 September 2026 caps the window between the Tutar Tespit Belgesi and the land registry application for the transaction that leads to citizenship at twelve months (\"oniki ayı geçmeyecektir\"), up from six. The window runs to the title deed transaction, not to the citizenship application. Both amended texts were read in third-party copies because the TKGM file host could not be reached.",
     "The current status of the closed-neighbourhood regime for residence permits is unresolved. No official announcement lifting or restating the 2022 position was located.",
     "The legal instrument behind the USD 200,000 residence-permit property threshold of 16 October 2023 could not be identified.",
     "Overlap between the cumulative 6,134 cancellations and the 687 and 1,070 criminal-file identifications is unquantified."
